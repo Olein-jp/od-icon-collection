@@ -1,0 +1,29 @@
+[
+  {
+    "id": "feathericon",
+    "slug": "od-feathericon",
+    "label": "Feathericon",
+    "license": "MIT",
+    "license_url": "https://opensource.org/license/mit",
+    "description": "Feathericon SVG icons.",
+    "repository_url": "https://github.com/feathericon/feathericon"
+  },
+  {
+    "id": "fontawesome-free",
+    "slug": "od-fontawesome-free",
+    "label": "Font Awesome Free",
+    "license": "CC BY 4.0 (SVG)",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "description": "Font Awesome Free SVG icons.",
+    "repository_url": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  {
+    "id": "material-symbols",
+    "slug": "od-material-symbols",
+    "label": "Material Symbols",
+    "license": "Apache-2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "description": "Material Symbols SVG icons.",
+    "repository_url": "https://github.com/google/material-design-icons"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-01",
+  "environments": [
+    {
+      "wordpress": "7.1.4",
+      "php": "7.4.33",
+      "themes": [
+        "Twenty Twenty-Five",
+        "Twenty Twenty-Four"
+      ]
+    },
+    {
+      "wordpress": [
+        "7.1.3",
+        "7.1.4"
+      ],
+      "php": "8.3.36",
+      "installation": "配布ZIPの通常インストール"
+    }
+  ],
+  "phpunit": {
+    "tests": 12,
+    "assertions": 20224,
+    "failures": 0
+  },
+  "python_svg": {
+    "tests": 8,
+    "failures": 0
+  },
+  "assets": {
+    "registered": 6681,
+    "registration_failures": 0,
+    "english_labels_verified": 6681,
+    "source_rebuild_identical": true
+  },
+  "visual_comparison": {
+    "count": 6681,
+    "failed": 0,
+    "maximum_difference": 0.003013514433551198,
+    "threshold": 0.005
+  },
+  "browser": [
+    "3コレクションの表示",
+    "検索と選択",
+    "3ライブラリの色と幅変更",
+    "保存・公開・再編集",
+    "コレクション無効化と再有効化"
+  ],
+  "regression": [
+    "プラグイン無効化と再有効化",
+    "Twenty Twenty-Fourへのテーマ変更と復帰",
+    "同じZIPによる上書き更新",
+    "WordPress 7.1.3から7.1.4への更新",
+    "アンインストール後の設定削除と本文保持",
+    "再インストールによる表示復旧"
+  ],
+  "not_run": [
+    "GitHub上でのActions実行",
+    "マルチサイトの実環境テスト",
+    "Windowsでの実行",
+    "将来のWordPress・他テーマすべてとの互換性検証"
+  ],
+  "package": {
+    "file": "dist/od-icon-collection.zip",
+    "bytes": 5133464,
+    "sha256": "99b86bfba411b31038d3aa4fab142276db56177b20b4ca89a76d81ddc29405d7",
+    "final_zip_installation_verified": true
+  }
+}

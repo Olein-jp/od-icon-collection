@@ -1,12 +1,19 @@
 name: 品質チェック
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
-  lint:
+  checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
@@ -14,5 +21,38 @@ jobs:
           coverage: none
       - run: composer validate --strict
       - run: composer install --prefer-dist --no-interaction --no-progress
-      - run: php -l od-icon-collection.php
       - run: composer lint
+      - run: find includes tests -name '*.php' -print0 | xargs -0 -n1 php -l
+      - run: php -l od-icon-collection.php && php -l uninstall.php
+      - run: npm ci
+      - run: python3 -m venv .cache/venv && .cache/venv/bin/pip install -r scripts/requirements-icons.txt
+      - run: npm run test:svg && npm run icons:validate
+      - run: npm run env:start
+      - run: npm run test:php
+      - run: npm run package
+      - run: npm run test:package
+      - uses: actions/upload-artifact@v4
+        with:
+          name: od-icon-collection
+          path: dist/od-icon-collection.zip
+      - if: always()
+        run: npm run env:stop
+  svg-rebuild:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python3 -m venv .cache/venv && .cache/venv/bin/pip install -r scripts/requirements-icons.txt
+      - run: npm run icons:fetch && npm run icons:build && npm run icons:validate && npm run icons:compare
+      - run: git diff --exit-code -- assets includes/collections.json licenses
+      - uses: actions/upload-artifact@v4
+        with:
+          name: svg-comparison
+          path: docs/svg-comparison.json

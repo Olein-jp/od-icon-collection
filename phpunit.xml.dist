@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true" failOnWarning="true">
+  <testsuites><testsuite name="OD Icon Collection"><file>tests/PluginTest.php</file></testsuite></testsuites>
+</phpunit>

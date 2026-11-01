@@ -1,0 +1,1785 @@
+{
+  "collection": "od-feathericon",
+  "source_version": "1.0.2",
+  "source_commit": "c60fd50debdce9fc6bfda37eda2d7c812e769d03",
+  "icons": [
+    {
+      "name": "activity",
+      "label": "Activity",
+      "file": "activity.svg",
+      "source_sha256": "9410608fd2601ea6a35e7a0b59cac2145a94c595ec42f00284db57e137842b58",
+      "sha256": "5bd200437d2b1b01c1fb9182cd38616e164ea201e30a751bdd1d9f505edabc85"
+    },
+    {
+      "name": "add-cart",
+      "label": "Add Cart",
+      "file": "add-cart.svg",
+      "source_sha256": "310113bb2915a788f847a0e6ca37c524768d40cffa208cdda4de3a64cb7532fe",
+      "sha256": "f224eb1edaf18ea8943d6dd31caf3eb10fd1339432c8005f56d38d5ea659df3b"
+    },
+    {
+      "name": "align-bottom",
+      "label": "Align Bottom",
+      "file": "align-bottom.svg",
+      "source_sha256": "bcc7286fb706f81f3a05e9d5ebabcdbd25e7369537c531f58bf0b081b399744c",
+      "sha256": "ea162127da33e216935e3886800607eabd0c7419e739dd1d6bf2a110d0fa8a6d"
+    },
+    {
+      "name": "align-center",
+      "label": "Align Center",
+      "file": "align-center.svg",
+      "source_sha256": "6ee16aebcc7378b9aef7bcdc9f611977f4ef628fdd8104713440c5221531b01d",
+      "sha256": "1954aaee9e9024cda1d2654ace31764e739588a0ecb7fec55eb016d6f8292e1e"
+    },
+    {
+      "name": "align-left",
+      "label": "Align Left",
+      "file": "align-left.svg",
+      "source_sha256": "11f96febe0c64fef08e814b65f7435bfc7717ee15127e9cc425c301aac17a8a2",
+      "sha256": "8def8e52d49b1a8268535f9cf205294d429fc3719a78babacba18ac9c866e1ca"
+    },
+    {
+      "name": "align-right",
+      "label": "Align Right",
+      "file": "align-right.svg",
+      "source_sha256": "d33089a34c76b3ca6362cb47e588af62b47fb0ac664012277bff5b5d32a39d77",
+      "sha256": "ec04f8242f0bf247c999f14d2cba9ad1e0e1e66416c8576ad28f5a843e4aafda"
+    },
+    {
+      "name": "align-top",
+      "label": "Align Top",
+      "file": "align-top.svg",
+      "source_sha256": "b5d37e161c7c6835de6dd9cdc734609adaf0e0d437675911782e1b9931a636a4",
+      "sha256": "c60a4ee1be13e25c1bb628c0096872992eaa03dfa4a23850019f7c38f2c98725"
+    },
+    {
+      "name": "align-vertically",
+      "label": "Align Vertically",
+      "file": "align-vertically.svg",
+      "source_sha256": "18b60d5dbeaaa9990bf836b807fede9f0495631fcfcdad70db685c8a42d29bdb",
+      "sha256": "670ffa302aa31d98e886561799fcbc6cd01e66531ecd6576348653695f1e52c0"
+    },
+    {
+      "name": "angry",
+      "label": "Angry",
+      "file": "angry.svg",
+      "source_sha256": "7c869953e0ed470efac1c788777efbf35e60a09f0bff25149c85549a7253f3e6",
+      "sha256": "4085a5c51bfb0ed120ba0ad8385c2160f3fd3fbdd5963a6162b2bd7632590879"
+    },
+    {
+      "name": "app-menu",
+      "label": "App Menu",
+      "file": "app-menu.svg",
+      "source_sha256": "6f8ba09e03d1625b405cf43fe1c14cb3f417d6516e051b279446af36f774917d",
+      "sha256": "524411e9a437980747b9ce8213f9be989d916257736676aa8acf368f92b416e4"
+    },
+    {
+      "name": "apron",
+      "label": "Apron",
+      "file": "apron.svg",
+      "source_sha256": "d7e714ce4ef26a702952b364c5eefce5a585609b4cfea5be889837fffaa2661c",
+      "sha256": "c4eeb54960a5f49baefd2115255515ecda7d2a185e03463ecd08eb2da95bb3e3"
+    },
+    {
+      "name": "arrow-down",
+      "label": "Arrow Down",
+      "file": "arrow-down.svg",
+      "source_sha256": "250d3bfbcd9647392793ccc7de513f7a0191262fb09c4209d209692f307bbe47",
+      "sha256": "fab015fb21a68e53f49a50c22111264e82cc45cb48cc74956f56e378d51fc4af"
+    },
+    {
+      "name": "arrow-left",
+      "label": "Arrow Left",
+      "file": "arrow-left.svg",
+      "source_sha256": "d9b55b5956b7d7fc58a40d521325a4dddfa75b59e744613ab14f033c73713ff7",
+      "sha256": "6569c15ed3e652461c73584638afc11204b01972362310365249d58360b718a5"
+    },
+    {
+      "name": "arrow-right",
+      "label": "Arrow Right",
+      "file": "arrow-right.svg",
+      "source_sha256": "36e4fb9f91ca2f8e76a8c239d4269765075b2644cf9c3c5768036ae9258ab27d",
+      "sha256": "42bcdc8af814b249fe905df4c6d7627e979b34b43b07d09b67fba2293ad553c8"
+    },
+    {
+      "name": "arrow-up",
+      "label": "Arrow Up",
+      "file": "arrow-up.svg",
+      "source_sha256": "9c2e9497f67d389ea4a63d0922e397b93b441b093451cb20baae4583d011e114",
+      "sha256": "45fb45cfc41e943bad9eea51e233671bc37572debfb9f397434859728e17fb93"
+    },
+    {
+      "name": "artboard",
+      "label": "Artboard",
+      "file": "artboard.svg",
+      "source_sha256": "54852a733f132622519937560f77f1cc4e92ce1f24766421e3cc7ae0fd799342",
+      "sha256": "79ef22a25537632fe086385f9bdacecb4c75a8478fff44ec810e8b69b82ef56b"
+    },
+    {
+      "name": "audio-player",
+      "label": "Audio Player",
+      "file": "audio-player.svg",
+      "source_sha256": "cfc7bca50621ad45f11986e0f0b59f4a88fbba8fe7579bb38a2e2a423d293ab0",
+      "sha256": "9ee3c4b965b6179108b92a1e4a7985624adb5aac44b0af4e571aeaada46d88cc"
+    },
+    {
+      "name": "backward",
+      "label": "Backward",
+      "file": "backward.svg",
+      "source_sha256": "26b67d5ea71e75947a75d51f52d67458cc71d913bf25db595c92a23b65155b7e",
+      "sha256": "fe4dd17781ca61056b8931a99704c5b7c2dcbfb0b1c83439e98fdd18e94215f0"
+    },
+    {
+      "name": "bar-chart",
+      "label": "Bar Chart",
+      "file": "bar-chart.svg",
+      "source_sha256": "69b797eb4bcd8c0c83ace9b4eaf9ed59bda0113e59b574e2df5ad82aade6026b",
+      "sha256": "400d059e7a1e13b4d4b52d2db33f247cccb2fedfd51dd627e4b1197f7005cab3"
+    },
+    {
+      "name": "bar",
+      "label": "Bar",
+      "file": "bar.svg",
+      "source_sha256": "e33cfb13f0ac639725622794f51531084b9f720b88e924a44d6153ade86df6d8",
+      "sha256": "a3c1b6a57924d1bb4bbbb7f8ef987701e07ace75580dff0e7c83bf6008c6d546"
+    },
+    {
+      "name": "beer",
+      "label": "Beer",
+      "file": "beer.svg",
+      "source_sha256": "3b7efce6069b1f032f68a736c57c0f2c5de763c7bb1432a3ad2a1f428387cb75",
+      "sha256": "c5fcbb801d9572196862df5aadb0bbc6a1daa474d30270ea695d917f288f6479"
+    },
+    {
+      "name": "beginner",
+      "label": "Beginner",
+      "file": "beginner.svg",
+      "source_sha256": "20cb4b3c45c094efa91edabeb274a04399ad1bf6b80e12812a4746478c6fa30c",
+      "sha256": "7f3bef632968ed00049dab96c32383328a7eedd00f4bb6ad1a2939b1971895d5"
+    },
+    {
+      "name": "bell",
+      "label": "Bell",
+      "file": "bell.svg",
+      "source_sha256": "b98a23f03b36fe028b3c68a5c26c27cd187d956f5b79039a71257c113046c146",
+      "sha256": "0f3683fd6a9a00c6391546021f8ddccd74db8039db820349ae73bb70dd056928"
+    },
+    {
+      "name": "birthday-cake",
+      "label": "Birthday Cake",
+      "file": "birthday-cake.svg",
+      "source_sha256": "3967bf47bc55e8b43591bf294731fe0f7a00624643488beaef3e3018106302f6",
+      "sha256": "f56d843b531a1cb52ada3524ec85d52d2ddea10084394ce5758122ef08bee7e3"
+    },
+    {
+      "name": "bold",
+      "label": "Bold",
+      "file": "bold.svg",
+      "source_sha256": "b51c1201488775d58ea3ac745c7e63e0b300ddc3cc9e5c7d826ebb380a25de71",
+      "sha256": "aab7df9a20c941ecca97a9c9d4e4bf4dd8a1c28a41a99ff8dd9b3b135be9c34d"
+    },
+    {
+      "name": "bolt",
+      "label": "Bolt",
+      "file": "bolt.svg",
+      "source_sha256": "e881e7194a66d5a442871e6bd517cba082781050d8a85f1a036960c3a863f8ac",
+      "sha256": "3a5725a10d8a09dd89ecb390e4720c8e389372c2079962fa8fff6af37a47175b"
+    },
+    {
+      "name": "book",
+      "label": "Book",
+      "file": "book.svg",
+      "source_sha256": "81045460bda8e3dc72afb3346769c075314ebbf8068b1b21879d6f16aa6a6e77",
+      "sha256": "11301b7e929550f68e939302e093290c27218f7f9915093222cd552a9204e599"
+    },
+    {
+      "name": "bookmark",
+      "label": "Bookmark",
+      "file": "bookmark.svg",
+      "source_sha256": "8158478258cba510ae11d3a767334ed57d2b22a55837b1c8ab91fb156db97a4f",
+      "sha256": "1aceaef34cc4e22dbe239032770116fdf948b29677b4d3b1a6c85626c7fd67e7"
+    },
+    {
+      "name": "bread",
+      "label": "Bread",
+      "file": "bread.svg",
+      "source_sha256": "404e879d26885d71c431aada554370558aed00b9c73655761c5518d82219117c",
+      "sha256": "625537021408329aca5e457162b3dcae6bfcd42ec88d8df7fa46bea54ca50a40"
+    },
+    {
+      "name": "browser",
+      "label": "Browser",
+      "file": "browser.svg",
+      "source_sha256": "f795245142ac4bdcce15d3af03f49a1819cbc3650572467399ad16212b419e1b",
+      "sha256": "44ddbc4fae81c4b051cde0443178eac91b30e4336566369430fe1e45f992da97"
+    },
+    {
+      "name": "brush",
+      "label": "Brush",
+      "file": "brush.svg",
+      "source_sha256": "0731496d6bc8ee3e177ddc7c156da07a524701fbbbdd0746f90d242dad08aced",
+      "sha256": "899c57090da4bec0e47c943768cb820cc92cc32bca7537988d1f627443d12db7"
+    },
+    {
+      "name": "bug",
+      "label": "Bug",
+      "file": "bug.svg",
+      "source_sha256": "a266fde861b0a4b34b6ba3df76255dd7a86285c154ed95e45e548cd39ec27aca",
+      "sha256": "7368a2c4f4f7f96270e663221690502826edae700f4ae21ee7645a20494e47b2"
+    },
+    {
+      "name": "building",
+      "label": "Building",
+      "file": "building.svg",
+      "source_sha256": "e603e32a72bd8e3e2513fb012766e6630f9528e67f0f47659baeae4d0debb38c",
+      "sha256": "3170b16c20650fb2e535d03238d5021d32a1ed6548fb35c874a57bec3ca3cd47"
+    },
+    {
+      "name": "bus",
+      "label": "Bus",
+      "file": "bus.svg",
+      "source_sha256": "9c681e55326cc71a85930572a7da6317138df184b710df0f89014daf142fb451",
+      "sha256": "7752cba4eca82c0a611cf4f47343313a81c5669dc9f061bf3d0eb2a926aff5ba"
+    },
+    {
+      "name": "cage",
+      "label": "Cage",
+      "file": "cage.svg",
+      "source_sha256": "9b32439f6fd0d00501bfe4da471a156dd3baf1344aa7d1f58886e05060166f57",
+      "sha256": "68c878b0e3b2fa5d0210306572f0adbab4cda5139da414e7cee41f1c028d66b9"
+    },
+    {
+      "name": "calendar",
+      "label": "Calendar",
+      "file": "calendar.svg",
+      "source_sha256": "5bb0c1d10717f676df9ba4a54336d813ad83fc52aba1b5d44fe2a2efe0603fe0",
+      "sha256": "f0ef3d6d0e3ff796e27572434f5bde223b8ec2e808afde394cbb7503f0d17235"
+    },
+    {
+      "name": "camera",
+      "label": "Camera",
+      "file": "camera.svg",
+      "source_sha256": "552c9e3e59852c15cf669cdc46da9eefee3ed6206e43bd8cd8f3a046c982225b",
+      "sha256": "eeb07350b8a3af58319b0acfda79c8cfc922331efdde6737f54a088dda3e6077"
+    },
+    {
+      "name": "car",
+      "label": "Car",
+      "file": "car.svg",
+      "source_sha256": "2e74c2d35cbcb452be55a4e251513aab1f7a307f886f494e294b772f2766fb95",
+      "sha256": "7611c99150ad0f81008bb101ce2fae4e2127c159aa75af79f8d8e6df2f2bb579"
+    },
+    {
+      "name": "cart",
+      "label": "Cart",
+      "file": "cart.svg",
+      "source_sha256": "81b0bbfbfa15fd87356511c6b47823c4cb71e3d110b2105a31a4ddbc763dc867",
+      "sha256": "fad90859436171ee989e54b989c4255cd5fb2d3e4fd8af0742c314a0b98328c0"
+    },
+    {
+      "name": "check-circle-o",
+      "label": "Check Circle O",
+      "file": "check-circle-o.svg",
+      "source_sha256": "3b61446c96eed0b84ba9a67d3064b367a1d9d427d0794757893100ee16640b52",
+      "sha256": "66455aefe3d427304ff56ffab65abd0516ad812a44b1971f11fa3af62a158d19"
+    },
+    {
+      "name": "check-circle",
+      "label": "Check Circle",
+      "file": "check-circle.svg",
+      "source_sha256": "6ede51df6b32fab35cb5a38d91f921fcece29ee6e287146df50b4d7e9239ad91",
+      "sha256": "70175b7e0447de0cb5f8fb521d67ae9f94dbd5a79fa96ef64c1eb39c0845be09"
+    },
+    {
+      "name": "check-verified",
+      "label": "Check Verified",
+      "file": "check-verified.svg",
+      "source_sha256": "f204258aa3b6727a2e155a6bce7292047e73867e1f04e104e2b7380f1511ff05",
+      "sha256": "794e5ce1e0dbbca24096ace45ce32d61785a64195d9f0b95b473433ee38c6fb1"
+    },
+    {
+      "name": "check",
+      "label": "Check",
+      "file": "check.svg",
+      "source_sha256": "914dcc1a3474548f138e460f30099a8d0c44fcc45973cbc2c721d290fc696f57",
+      "sha256": "bda4e254681a87d7f4ddcdba940e67413e564576a2a68fccd43059920788659a"
+    },
+    {
+      "name": "clock",
+      "label": "Clock",
+      "file": "clock.svg",
+      "source_sha256": "46d7ccda43cbfee905b1a2edfc85e9e2d9f6680396c1e45b1d64c17c76594a2e",
+      "sha256": "c2ace4d02b65ae93693210cb18992722c09988b9da84be50fa373a4f097a89f1"
+    },
+    {
+      "name": "close",
+      "label": "Close",
+      "file": "close.svg",
+      "source_sha256": "d71c43b6f8a5c22c4f1d2cc8374f8d3a76affaa8b6a6bec55e4216114485194b",
+      "sha256": "ffe3f470f16f3c7ea40717bdc648673e8a967e149f3c718d09ef41c097490ecb"
+    },
+    {
+      "name": "cloud",
+      "label": "Cloud",
+      "file": "cloud.svg",
+      "source_sha256": "a1e9460a5af44cc13acd33e0d9718017621bcbbc21d21be6d28813b128b44577",
+      "sha256": "860b52abab83dbe1c589caee8451667a977fa922215ab9eb9b61dfe42833e955"
+    },
+    {
+      "name": "cocktail",
+      "label": "Cocktail",
+      "file": "cocktail.svg",
+      "source_sha256": "8f51a6a493bb68f4e8d7dcabb24adceb9f01cfea10c5bfe01648a2015aa78516",
+      "sha256": "d6e598a05f7ed8025b058fe20f1148ba4aa20b175fc7f6df098ab30d7b2a868b"
+    },
+    {
+      "name": "code",
+      "label": "Code",
+      "file": "code.svg",
+      "source_sha256": "ecfbb7dff7edc1253bbe67090d99ac7341e415386bd2e3393e03afc299d8fb3a",
+      "sha256": "da3a3df98d0530d4e385d2be1c87ca8df36a1b6d58bcd22df4fbf9ef86e93cbc"
+    },
+    {
+      "name": "codepen",
+      "label": "Codepen",
+      "file": "codepen.svg",
+      "source_sha256": "d4eb99940abcd4958903e87363a71ffda996116c6df598f9b6909209406b08a8",
+      "sha256": "2786d01acc4cdabca3facafab6d3ce6b3a3375c2d1d8be4395d8b36161365c6e"
+    },
+    {
+      "name": "coffee",
+      "label": "Coffee",
+      "file": "coffee.svg",
+      "source_sha256": "2baf164da39a7a7d7462c3b72cdccf30600d78f909cad32695d65cc1c715b68e",
+      "sha256": "737a1e72a95c14096d12c46c4d4b2d1f185ab17370fc652f7078b28e39dbea75"
+    },
+    {
+      "name": "columns",
+      "label": "Columns",
+      "file": "columns.svg",
+      "source_sha256": "610bcad6f6c2125042a871e49177408f430121ba569827d90b0a1005c0ef95aa",
+      "sha256": "09a1e006973e4ba5964019cf00fb0ce14495cffa9747fba71b7c9e654ff95175"
+    },
+    {
+      "name": "comment-o",
+      "label": "Comment O",
+      "file": "comment-o.svg",
+      "source_sha256": "90c3c70e7d5ce7c73870c9278d5132592788e193364fc0558faf1aac253d1805",
+      "sha256": "9bd7b0d41e807056b957009945d6c9b1e546769f04ff44658af82ee4d5c9bc37"
+    },
+    {
+      "name": "comment",
+      "label": "Comment",
+      "file": "comment.svg",
+      "source_sha256": "d255da17dcf57e7c6b492c39cf772eaed7d477449ffbe68f406f3fc90337953f",
+      "sha256": "b86e8c5634dbefc64dfb5092f699057ddf9f282c8eaa5033d8e753510e363f5d"
+    },
+    {
+      "name": "commenting",
+      "label": "Commenting",
+      "file": "commenting.svg",
+      "source_sha256": "dfa5b35dc5d4ceeb8e4afaa86471a5ee525611c85524020e1c1f08711586b299",
+      "sha256": "440f1eb25983a19b48f9d6b6b15f7986cdfb70dd5f22cdce5b92b3ce77387dd5"
+    },
+    {
+      "name": "comments",
+      "label": "Comments",
+      "file": "comments.svg",
+      "source_sha256": "deff82ec6d9cfa556d2843ee9bfbbe2b063323e4c6597387ffe4cb3a987a8163",
+      "sha256": "8c005725892d225149d70ac05515b9149da7f10350d3eab235c4d719c563f6d7"
+    },
+    {
+      "name": "compress",
+      "label": "Compress",
+      "file": "compress.svg",
+      "source_sha256": "629c63093c92ac00b6a8daca78ee8822b969b22b8faa9177a7ac70c08435ebea",
+      "sha256": "a2be57a59265caa108e7a3be745f9e38f579b11fbca10e472fb4e67242bfbfd7"
+    },
+    {
+      "name": "credit-card",
+      "label": "Credit Card",
+      "file": "credit-card.svg",
+      "source_sha256": "82c59e7f0c2862e8a5d53116e598388edb1d59188fc913682010d246f2eb6466",
+      "sha256": "09cd6c3e06ff7406ee485acc8627cc03ebe2bfa7112cffe67da1934d2d573073"
+    },
+    {
+      "name": "crop",
+      "label": "Crop",
+      "file": "crop.svg",
+      "source_sha256": "6758778386a972a135a4e5fd8a48d4afe2d118fa1b5ade84fb88742b9fd55199",
+      "sha256": "9eeaffe66d5c9cadd9bf3d125e62348d901fa9e76da3a1f7f74d562ab6e36b0b"
+    },
+    {
+      "name": "cry",
+      "label": "Cry",
+      "file": "cry.svg",
+      "source_sha256": "05e3ae26a69b4d20ff2b1bcaf0e783ae3276bf7f99b2a4bacefdb6eb065bd2f2",
+      "sha256": "53a2549ab435a0ab88525d8ce0835248792356ec23a140096eacb5618cff5b7f"
+    },
+    {
+      "name": "cutlery",
+      "label": "Cutlery",
+      "file": "cutlery.svg",
+      "source_sha256": "58c6e439336956059372dbd69a49c80f66c0fbc0aec6309fbf7f9dc8adfa1d9e",
+      "sha256": "ea25f6ac7ebf4871e3ec27321b4ffa5246aec0bc0c1ad1396e2bb97304058c36"
+    },
+    {
+      "name": "delete-link",
+      "label": "Delete Link",
+      "file": "delete-link.svg",
+      "source_sha256": "d2d5ed29b7c8e9344c69b4884c7541638494883e61b9dfa19c8cf5c6fdb6fb00",
+      "sha256": "041d21bd86839aa60b593cfdd6647a79eede93afd9803b4f8a96ae3723241102"
+    },
+    {
+      "name": "desktop",
+      "label": "Desktop",
+      "file": "desktop.svg",
+      "source_sha256": "501cef92e7ffe8983340e07828fe7ab0846dadf24eca043f72942d4fe3435a40",
+      "sha256": "c8f031cc01a414ad38802a12529222efb7ce42dfa6165634ef90e753a5996d63"
+    },
+    {
+      "name": "diamond",
+      "label": "Diamond",
+      "file": "diamond.svg",
+      "source_sha256": "4e12ebc2b36f925e807e13d13eda9f38a39bb62b67ea1eb9917b24403eb0fc41",
+      "sha256": "dabec18273b7afbb118933975237a07d459c3eea1b02fc496d89413b7617234c"
+    },
+    {
+      "name": "difference",
+      "label": "Difference",
+      "file": "difference.svg",
+      "source_sha256": "3e9eff08256a9f22b27470f137e244450d3f9e4d06de19514e2c6fb435533e6d",
+      "sha256": "0665fc881c124bfcc251a638fbe7c0a77d44b705b05ad66bcf55fa165643b9e6"
+    },
+    {
+      "name": "disabled",
+      "label": "Disabled",
+      "file": "disabled.svg",
+      "source_sha256": "0eeb17629131a18e79dd84e598663e8e0043570fcd9839d8b9aa7c9312ed6d1e",
+      "sha256": "70e6dd117a865115bb47d0b001875b356cb1a3dc5e93734b28922085825bc8a9"
+    },
+    {
+      "name": "disappointed",
+      "label": "Disappointed",
+      "file": "disappointed.svg",
+      "source_sha256": "b7c510eb08c8a08b2d1c1c8f279563107c30b30941c3fdd994131ba2d71815f9",
+      "sha256": "b41db28773f9af4b2084ef7449cb7400450b4a10dabd4b30ced71280f06b4b75"
+    },
+    {
+      "name": "distribute-horizontally",
+      "label": "Distribute Horizontally",
+      "file": "distribute-horizontally.svg",
+      "source_sha256": "557e87bcd994d9481d03652aa0aabc53d3c56291a59fe55e2eeb26751397ec1b",
+      "sha256": "fc2788559ede5ed6006cb85e84b379be6835f182639581aa8a9cf86cc67963b1"
+    },
+    {
+      "name": "distribute-vertically",
+      "label": "Distribute Vertically",
+      "file": "distribute-vertically.svg",
+      "source_sha256": "02b8ac6fe2af4b937472fd74ed335e57e8fea49f0c0f88e42c414e1a7300d72e",
+      "sha256": "958df7caaceeb748a8530bc5dac20a7fb1129d09eef1d4a7b91ea7f305336ebc"
+    },
+    {
+      "name": "document",
+      "label": "Document",
+      "file": "document.svg",
+      "source_sha256": "bad9119cc70c7c3dc88dc38e88c5abf9cdab50a0909f8446d6f9b7c9cd724643",
+      "sha256": "0668f895fe53b87a6cec0293f88e6a483fc6e48b80da1d6b1ebbefe7547e32f3"
+    },
+    {
+      "name": "donut",
+      "label": "Donut",
+      "file": "donut.svg",
+      "source_sha256": "a6ac171a2b56022ed8e10cb99558a49da9f83bafa433407630ce8365c9ba6ac8",
+      "sha256": "e19f453f5aebb36ec021cbf6af5bdafffd94edb0f2dc7f68f372337153b8976d"
+    },
+    {
+      "name": "download",
+      "label": "Download",
+      "file": "download.svg",
+      "source_sha256": "f784fe5037ab9177e44fc25ccc678c3ff89e9f7fc367214f09e81a7c8a87303a",
+      "sha256": "0612c0af270eff163e5720b599fa7bee680e5adea832bef4e0b9ab21282235a2"
+    },
+    {
+      "name": "drop-down",
+      "label": "Drop Down",
+      "file": "drop-down.svg",
+      "source_sha256": "68a045cd55668420a5b8165111e7617451be20985e6cc57e3b87b77c87cd6a60",
+      "sha256": "4bcdf35a291774b982a46b6e99f2fa744235c7761789ca2cf74f798a5fbf59b9"
+    },
+    {
+      "name": "drop-left",
+      "label": "Drop Left",
+      "file": "drop-left.svg",
+      "source_sha256": "f65356969c41f2ca23a2e43a75e0e73140a9cabac04e87766930d6b183e0d88e",
+      "sha256": "04bcbf18f80316d519e60f771e2a30df69dfa010351ac1808d91b9efc1094d4d"
+    },
+    {
+      "name": "drop-right",
+      "label": "Drop Right",
+      "file": "drop-right.svg",
+      "source_sha256": "e46ff98049e165d03c006e9219699eb3123d872de4a16297d639df5e11d61615",
+      "sha256": "7a2899beb102016e875ba61a6d1a2f0ca01b9f583b743f9486081c25d2830d38"
+    },
+    {
+      "name": "drop-up",
+      "label": "Drop Up",
+      "file": "drop-up.svg",
+      "source_sha256": "fff8503df110cf9a3b371d82b70e53d094e0942e830f1b6aa632df0d3108b881",
+      "sha256": "eb9c92ae86c3399e646493661726ebf9b667e6b48b80f9e0cceb21ff25e6196b"
+    },
+    {
+      "name": "edit",
+      "label": "Edit",
+      "file": "edit.svg",
+      "source_sha256": "618057a65d84ad93d061bf903f2fcde5be1112c6df9bd4ce5326cb6b482e4d3d",
+      "sha256": "59703d6e541704983fa543c19beeaac0e1d0c91e839a2f27a7ab10854a983f5c"
+    },
+    {
+      "name": "eject",
+      "label": "Eject",
+      "file": "eject.svg",
+      "source_sha256": "95e2fbc5c5eef6d9412337293b2ffc337061f472ce7a3f189030b5de2ea0a210",
+      "sha256": "92c9d749bdf8867a45904bd31e7152b3101b183891cfb232bce3aa769ef6ee09"
+    },
+    {
+      "name": "elipsis-h",
+      "label": "Elipsis H",
+      "file": "elipsis-h.svg",
+      "source_sha256": "5bd11a04d9a88c0e6afb08a3dbe5adaf44990b059e9ae1fdecad9b436587ec1f",
+      "sha256": "c878fa35ea152bc75123357233da7a28fd149820683af4657be2cbf36f46d34f"
+    },
+    {
+      "name": "elipsis-v",
+      "label": "Elipsis V",
+      "file": "elipsis-v.svg",
+      "source_sha256": "50e66282bd9cb06c3fd84c9a4109723ec183beaa17617ffb4f10aa8f3d574a0f",
+      "sha256": "bfcff1fa77e48661dfc3f52fb67aa35a241127b01383a44953dc47e9d9c7dcdc"
+    },
+    {
+      "name": "equalizer",
+      "label": "Equalizer",
+      "file": "equalizer.svg",
+      "source_sha256": "c39731d0e5c638ba403c65628459d12c314cd9da3ba1dc2168a01eddd2f71c91",
+      "sha256": "2b72207dfb11b00ea83fb735c531189befb6156c51b686088a47dd00f0fb8944"
+    },
+    {
+      "name": "eraser",
+      "label": "Eraser",
+      "file": "eraser.svg",
+      "source_sha256": "74d0b2349b2c9f7e2a8911e3a7ecd70d190f81d8febb19e58f8a78c92fd80a74",
+      "sha256": "f1331b23542074df6ff1e6e8bdb5269c6a1fe480672050f528cce874df313c16"
+    },
+    {
+      "name": "expand",
+      "label": "Expand",
+      "file": "expand.svg",
+      "source_sha256": "ec5f4f97126c6d9173fe31dfbb3c7a5e3a4213290aadec7fe96eed53c42404e4",
+      "sha256": "a093784f90a14a648bd4f719d903626d86009489055195156e02d67276271fb8"
+    },
+    {
+      "name": "export",
+      "label": "Export",
+      "file": "export.svg",
+      "source_sha256": "188aad775d922968c68b84a1f8991ccb7e711423f8b3496db39ad8c6323e3071",
+      "sha256": "03421a8be370f50b81b9dc6cbf6ff99114eb1fa55f1421f8ebbe111b1d3b6149"
+    },
+    {
+      "name": "eye",
+      "label": "Eye",
+      "file": "eye.svg",
+      "source_sha256": "16fe75abfc9e106d41fb5934b88aafa453f501cdaebbd2e9b1864dcb8b70e069",
+      "sha256": "6d8b6edddbf5efab33dab3fb878c6308dc5b8a7fd255bc19e5223bbbdfb37d3b"
+    },
+    {
+      "name": "facebook",
+      "label": "Facebook",
+      "file": "facebook.svg",
+      "source_sha256": "462721a50b9bd27de7f593864729be18afbed149859b9926288cd1771277816b",
+      "sha256": "f881c8b24e77ec4af56382d6b8248cf5b1a97418bd8b19841bab128b86a03a5e"
+    },
+    {
+      "name": "fast-backward",
+      "label": "Fast Backward",
+      "file": "fast-backward.svg",
+      "source_sha256": "55e49b8a3adc61f73d9a456546b82672c4ae87a219f2e4c665b37e3bcf752580",
+      "sha256": "2a5d5a04eda189e6848cd970706c4cde9a33ba8ecedfea8c52b83d38453c4ddb"
+    },
+    {
+      "name": "fast-forward",
+      "label": "Fast Forward",
+      "file": "fast-forward.svg",
+      "source_sha256": "830cc4330da8c9dbba21d9a7ad3f0ff4f1142f94d9126ccc4c5454a7c6249788",
+      "sha256": "7b685a63a76afaf9e26515bcd674ed6f9a94267d2915a1d55e363d16d309245a"
+    },
+    {
+      "name": "feather",
+      "label": "Feather",
+      "file": "feather.svg",
+      "source_sha256": "9f0ba60916178dc84a59c91f67e53c238bd801567a36403b5903250246507fe5",
+      "sha256": "e1f9b0889b5f53f90fc0cbf7d0037177ed9bf4a60de37095cac89f3b9010fda6"
+    },
+    {
+      "name": "feed",
+      "label": "Feed",
+      "file": "feed.svg",
+      "source_sha256": "5eb9c78ace38368731e5d224f1b18a5f4aae7e72121162d5b032628f807d16d5",
+      "sha256": "17cb5a8d9867e77230ba1ea93fe0a22210e6ee3a4e1458131996c8def432ba59"
+    },
+    {
+      "name": "file-audio",
+      "label": "File Audio",
+      "file": "file-audio.svg",
+      "source_sha256": "17334f3dcd73a537d03a71233d11062005566757b9270f40fbf4b3c68482960e",
+      "sha256": "45392913239fad5a00f77f85ed49c7818b8bc00c969765cabade3481ef4dbad9"
+    },
+    {
+      "name": "file-excel",
+      "label": "File Excel",
+      "file": "file-excel.svg",
+      "source_sha256": "26347740920c5ffb743206c6e62101363fc6349347fbac38b448e9f984e11bc2",
+      "sha256": "b6c1a7298750510cb3931f3cdb61cb92762bdb3e586e1103f243f67d252d9771"
+    },
+    {
+      "name": "file-image",
+      "label": "File Image",
+      "file": "file-image.svg",
+      "source_sha256": "9de2422be56b83458596280f3e128b6c33294c65b254b20230a403992c343434",
+      "sha256": "6917f863cd70fb4707c1c830cfb5b0ca2460373de95a64a47493e48a26da67f8"
+    },
+    {
+      "name": "file-movie",
+      "label": "File Movie",
+      "file": "file-movie.svg",
+      "source_sha256": "01a26342d92fd3e6dbe1aacf3eb5ca1a82d41523130b8dba5cfe19a46909bcf9",
+      "sha256": "6d82754e399850fc0ae0a2c0342179dbd6741bf2cc3cad67c0f1715bb96eca82"
+    },
+    {
+      "name": "file-powerpoint",
+      "label": "File Powerpoint",
+      "file": "file-powerpoint.svg",
+      "source_sha256": "0433b092b9fff43fc50192c62ddeb77f98f56d6fc2872d75c358d965a93577f7",
+      "sha256": "552fee62ee8bf962b5b493cfcce14c8e943eba0b70d8c80f743592548ecf29e0"
+    },
+    {
+      "name": "file-word",
+      "label": "File Word",
+      "file": "file-word.svg",
+      "source_sha256": "d8a48cf7a15977b4fc63b5dcf3f0fac99f6bb2008e671f118489f32e7d17cae2",
+      "sha256": "f7ed518ffc88059457ac5e5523f7f000566315e0dd91242f7db63d2a12b1de2f"
+    },
+    {
+      "name": "file-zip",
+      "label": "File Zip",
+      "file": "file-zip.svg",
+      "source_sha256": "c93a6e8a08be577cc24346308052c5ac61bc93556ece4e166bb152da265509b3",
+      "sha256": "ce270ff9c15ae2f9bde2c68f7b65e0f73b8c8d9e36c9743206c1e9e072254d3d"
+    },
+    {
+      "name": "file",
+      "label": "File",
+      "file": "file.svg",
+      "source_sha256": "b8a1c6cde0e128c9fd44577da38ec3aa57f08838d54ba564bd95240df03f3999",
+      "sha256": "bb9343e55603caa40026ba04905529058b509219748949db97c8408c29ad8235"
+    },
+    {
+      "name": "filter",
+      "label": "Filter",
+      "file": "filter.svg",
+      "source_sha256": "2e49fec60833fc3a10a0531e6b65ed7c6d29f0738cff9fc0404d8a0aeb8d1c22",
+      "sha256": "805fd6c9469b6636410a8f3eea7dd64c1c8975e8143ea353b2eeddf022eb7354"
+    },
+    {
+      "name": "flag",
+      "label": "Flag",
+      "file": "flag.svg",
+      "source_sha256": "645bf6b62c0cfc7787a679e318ae23216ee9148b975abf5e07b52d1140edd8d4",
+      "sha256": "a6989b79ef6d93333b2f47283c0686ef51340574d37f856c8ea7512591416117"
+    },
+    {
+      "name": "folder-open",
+      "label": "Folder Open",
+      "file": "folder-open.svg",
+      "source_sha256": "75a76c728f56ca6e7f405f936dd053d02535574fd872176b7101006c53bc9ad4",
+      "sha256": "e6fe4b8716e65284fc8428f0764eaeeab98c01c80d5297a6e207c99dc817bd39"
+    },
+    {
+      "name": "folder",
+      "label": "Folder",
+      "file": "folder.svg",
+      "source_sha256": "090c7b442f2b1cf3a92f6b96e26482cbc9b0c1c30f70a03938c06ee86f311efc",
+      "sha256": "76f7b4ea11eab50e8f641f5eb9fa56937c88e185da9992b9ff95ae63afa3e692"
+    },
+    {
+      "name": "fork",
+      "label": "Fork",
+      "file": "fork.svg",
+      "source_sha256": "d72da39366f045ba673280661633c06cd135314906c53dbb27907499bff34dda",
+      "sha256": "d57fe67949e98be40464a5c745ce2cf02e20b09ea39210927a5aaf2a2125d858"
+    },
+    {
+      "name": "forward",
+      "label": "Forward",
+      "file": "forward.svg",
+      "source_sha256": "a19407c912ede87cd49d02e2ea71c33b94c8383b79a7c3e4e909006c59411454",
+      "sha256": "f942e68bd0118005931fcac4ce1f4c7b27b1e8acd1835e1c0358539f25942ead"
+    },
+    {
+      "name": "frowing",
+      "label": "Frowing",
+      "file": "frowing.svg",
+      "source_sha256": "94870c805f79f2e3dfe62609109aa68d495a74985758bd88f6f65e0207376c12",
+      "sha256": "7e527beb680352b4b747dd9f4894655f63028baa99304b97759d4e37b57caa1f"
+    },
+    {
+      "name": "frying-pan",
+      "label": "Frying Pan",
+      "file": "frying-pan.svg",
+      "source_sha256": "2001317a9e197ec1f18c4ee896fb5a472a1654a3d19ed177f79e3f815c7675a3",
+      "sha256": "8209f8a5a6d5d5cb797718b523e4a3d67d4ee1a284698c0d9d77277898a47f57"
+    },
+    {
+      "name": "gamepad",
+      "label": "Gamepad",
+      "file": "gamepad.svg",
+      "source_sha256": "b0b35a6b5474d35a8fa096e8dcde1723786f2b05a82d6195ec7332bd12ad6858",
+      "sha256": "bb830f79e9234621bb247138f638e5984a0a1abe937a0e1c35957dcc71800112"
+    },
+    {
+      "name": "gear",
+      "label": "Gear",
+      "file": "gear.svg",
+      "source_sha256": "6ebc7bb1ba293da1467dd401eb7244605b60b037c675e781e048070b285c15e9",
+      "sha256": "b812390fcab9f736ad0f2ec090f27d37c5c0910d01d5fedd1d24cbc06c26bc8d"
+    },
+    {
+      "name": "gift",
+      "label": "Gift",
+      "file": "gift.svg",
+      "source_sha256": "41d36c0e87094334b71263d6c6dd8536e9304bccec9fd06ad6eba978d9a80680",
+      "sha256": "9d816dedc850ef8f6aff7103d58e32267a3bf6c4d5cd6ade1f011c0c51d36f00"
+    },
+    {
+      "name": "git",
+      "label": "Git",
+      "file": "git.svg",
+      "source_sha256": "246c01a6890bef8ea72cea152f12e326e85d6c6ea4f83e0485f569cdf43f6c51",
+      "sha256": "6756c50c1c3e7b46a2ba4ec419d498910279d432208872bc5045e8e9d4757946"
+    },
+    {
+      "name": "github-alt",
+      "label": "Github Alt",
+      "file": "github-alt.svg",
+      "source_sha256": "5d542a3d793fb55d6928d853877e430e032d22e4ebf0b50b19977303d7dc52fd",
+      "sha256": "f5874924a8fec033d374ae3ec7c8c53518ea006218f859654e982caad6b3ec4b"
+    },
+    {
+      "name": "github",
+      "label": "Github",
+      "file": "github.svg",
+      "source_sha256": "18a4dd57ddd3fc0c98d999916a87cac6402eef5c49b9144dad6159e446d5b229",
+      "sha256": "3fab112cb72337856e4d0829b39ea0e01563555f8e444ff6becfe715f72813ef"
+    },
+    {
+      "name": "globe",
+      "label": "Globe",
+      "file": "globe.svg",
+      "source_sha256": "d11cdbc269177dcfdc762262ca7aea9da71e6238884cbc2fb9ddfe0fba711209",
+      "sha256": "e9712d5366d89d0b00aeede33d787eaa3bee2c1275b080efd195f4919b56ed2d"
+    },
+    {
+      "name": "google-plus",
+      "label": "Google Plus",
+      "file": "google-plus.svg",
+      "source_sha256": "1a8d59beb8831c30c5b96ebf4916ab403b8a828fbe0cc637bd23fe63fe8a5e96",
+      "sha256": "280c894542a485105c954a3adccfb3352f8696ee0dd8450b650b6cb917e3cfcd"
+    },
+    {
+      "name": "google",
+      "label": "Google",
+      "file": "google.svg",
+      "source_sha256": "a686ea7a293d2cd9491df17ea70f703c88340c9685265d236301e9a8702a5e32",
+      "sha256": "9a81fea2444db2fa395ca473e2f523eb87e4527b26140f48eebe8dd57072f225"
+    },
+    {
+      "name": "hash",
+      "label": "Hash",
+      "file": "hash.svg",
+      "source_sha256": "196ffa34e963fec09dfd69d0e32cb021183195849f2b47a03512ca48b0700423",
+      "sha256": "1cbb743e74b2a05c0255eb2997f1629e0efa98aca2f113b1c5564ca51e75cc8b"
+    },
+    {
+      "name": "headphone",
+      "label": "Headphone",
+      "file": "headphone.svg",
+      "source_sha256": "39d6e5059b0bb07205d3d6b767ad6b4196f68e9eee8320c7ba8d3e8e8a1bcbc4",
+      "sha256": "99ad52af8d7ba3685954bcb6526834a221894d03701f2bf1fb4244aa888d8db9"
+    },
+    {
+      "name": "heart-o",
+      "label": "Heart O",
+      "file": "heart-o.svg",
+      "source_sha256": "2a895aa2aa99f0bf5849da6991b8b4c4a4fb79de1199153be2f107ce48316928",
+      "sha256": "436d9ecde428c86d0b750ce0fedea1e1151f5b4615e0162349dbe7785f632750"
+    },
+    {
+      "name": "heart",
+      "label": "Heart",
+      "file": "heart.svg",
+      "source_sha256": "635ac2f318a9f65723f9baaecacb1f34cf409d090a3944d6417f207a21182383",
+      "sha256": "8d7842ae3facc88f9fb4be47ad961e87b207f9e25174e30d5e3a7019f111ff80"
+    },
+    {
+      "name": "home",
+      "label": "Home",
+      "file": "home.svg",
+      "source_sha256": "7d7dbfc7324647557f308dbbe0efc487955aa58d87b5fe58d229b11b0eb21fb8",
+      "sha256": "0874d6a193389a9d062ace2a42271c4170b38d6a66d221da3833cec81415cf71"
+    },
+    {
+      "name": "import",
+      "label": "Import",
+      "file": "import.svg",
+      "source_sha256": "2f92cf194f84f09fcdfad8a033c6f1c4314ba213d0268ce8d25b6dc770b59415",
+      "sha256": "403136a8ab7c3b61e6a032f4066152fc904216745fda30b5830dc576db83e63b"
+    },
+    {
+      "name": "info",
+      "label": "Info",
+      "file": "info.svg",
+      "source_sha256": "fe001167ef9af7d6907b0178024bf9905b90c59a0741bb789bef21e501a58a07",
+      "sha256": "bce8b75719b60998a0742632d4de2d14d77e496a9b4135da94e7036da425e6c7"
+    },
+    {
+      "name": "insert-link",
+      "label": "Insert Link",
+      "file": "insert-link.svg",
+      "source_sha256": "35dbafc1ffb83dd609a5df9d877147fde1219c5581cef3859565c6b336e66455",
+      "sha256": "94b2e32bee82e5dfb28691d8620b8dfac3b6c7ee995854c5ecb0a41620e06763"
+    },
+    {
+      "name": "instagram",
+      "label": "Instagram",
+      "file": "instagram.svg",
+      "source_sha256": "ffcf14f2ca82a56df343ab2f60daa93a569b69843f02a8025bd162f5c48a51af",
+      "sha256": "34834d7c5efc9c7fcc76a397dbfa582a6344a1370a72a34729775a73350352fc"
+    },
+    {
+      "name": "intersect",
+      "label": "Intersect",
+      "file": "intersect.svg",
+      "source_sha256": "72cf4d20d7e91d42d3390ae7440fc58786a43d17ab377cdff44b98c41ec557fa",
+      "sha256": "b69a9d67a87af8fe35163de6622ae303cfd34986ba0f71eaaa2fd838a34e7235"
+    },
+    {
+      "name": "italic",
+      "label": "Italic",
+      "file": "italic.svg",
+      "source_sha256": "0b7ae361d79b5f681d3278efe403e0c89b994c76756239b63b028f42d88f48e4",
+      "sha256": "0abc6e403343b084f73999b8e58dcb7052350fc74d33717cc8dbf7daba46f52c"
+    },
+    {
+      "name": "key",
+      "label": "Key",
+      "file": "key.svg",
+      "source_sha256": "3dcb4ed18c9b88f08fceaeeba79eca43fdf258a2dbc0b54103ca32f8b45ed211",
+      "sha256": "33904436aa35b990f0ea9f94a802ab268acbc352d6872cb2d1278a062e179f72"
+    },
+    {
+      "name": "keyboard",
+      "label": "Keyboard",
+      "file": "keyboard.svg",
+      "source_sha256": "a6bc3f2067496eb4beb42727aff9bdcfedea415e3795d0e4fe850029df03993e",
+      "sha256": "67920a29eff70f643993e0c503d7d1038d45be9812609c69b5065aaf6be591c5"
+    },
+    {
+      "name": "kitchen-cooker",
+      "label": "Kitchen Cooker",
+      "file": "kitchen-cooker.svg",
+      "source_sha256": "40b73566326c05c3fbdfa401e87fcb27626a7269cf7242546b96378ffb18518e",
+      "sha256": "ae7eacf5294b30dce7446a2ca6b7f96e452e53f1e0b5cd247ab190db7f208a8e"
+    },
+    {
+      "name": "laptop",
+      "label": "Laptop",
+      "file": "laptop.svg",
+      "source_sha256": "1079bb681b960fbb9139597bf7486e5a5902d8ef2c17911c7295884ec99c7801",
+      "sha256": "7eed6e3d1b39fa7e979e87f65b29c929b9b8be83725f11580010bee3b0c146e8"
+    },
+    {
+      "name": "layer",
+      "label": "Layer",
+      "file": "layer.svg",
+      "source_sha256": "c466245b2195f439b16ee59fbcc4ec446d68f0770506df2cdc5694056d9dbc88",
+      "sha256": "53e1d2da2c2145a18c46b8bc4c07fffa22430e12373749c329cba33f97ad2841"
+    },
+    {
+      "name": "layout",
+      "label": "Layout",
+      "file": "layout.svg",
+      "source_sha256": "2a26331e0d94e8377ec8041898b0908bfc94029dbd974c492dd48c8b8354499c",
+      "sha256": "58571cc7374da52d2eddc602a99b3c2cf29256845ca2e963bf059e00a012d8ae"
+    },
+    {
+      "name": "line-chart",
+      "label": "Line Chart",
+      "file": "line-chart.svg",
+      "source_sha256": "0de4ae0a289de058aae469de3b31093b53a503d40e0713ea09f71cb34b5cebc1",
+      "sha256": "5ce710baf08501b177ad749fc756730f673140f38f38826abcec847ea51a9186"
+    },
+    {
+      "name": "link-external",
+      "label": "Link External",
+      "file": "link-external.svg",
+      "source_sha256": "4c6933e2048a07045d3ea926e437fd27d75f644d1c547c4cf80f6e5427e20721",
+      "sha256": "012dc6345980d4a837629d42c2e57da3e50003437985cb93be66b23778ad58bd"
+    },
+    {
+      "name": "link",
+      "label": "Link",
+      "file": "link.svg",
+      "source_sha256": "74dab4c23261885518db663f37f2481624134b58e56b8f3d128cc792f1f89802",
+      "sha256": "48133dcfa6fa295e4946fe5417b08190ea43571c93a29d38c3500a169a5c32bc"
+    },
+    {
+      "name": "list-bullet",
+      "label": "List Bullet",
+      "file": "list-bullet.svg",
+      "source_sha256": "942498bfd5ba909e562c36643a499c6d9d2156e29bba46c3996454e4d30f4edf",
+      "sha256": "8505eb9256609496cb39d8d6a7de5f2533abc2c191587d010ee929c06bb3becb"
+    },
+    {
+      "name": "list-order",
+      "label": "List Order",
+      "file": "list-order.svg",
+      "source_sha256": "f04305854533cf20bb610cf5c31597a5c31fed19ce395cb43a0f4c9124570ea3",
+      "sha256": "d2155d4eeffdde72e3a41445e5e91a47d755f61eca39008fc32b27f68f1b9bc7"
+    },
+    {
+      "name": "list-task",
+      "label": "List Task",
+      "file": "list-task.svg",
+      "source_sha256": "677c01c24ccf703c3377c35a17bcc6944b1c510981bd34d756a0890474d75bf7",
+      "sha256": "e54ffc7d1acc7f5329ebd22e668d5a7671b5f746c2afadcfb213aa82fe0cec5c"
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "file": "location.svg",
+      "source_sha256": "0679910fc1017fd872bf1bdc4ad3f20cd56a054a1a3e7a384879a8edde59616c",
+      "sha256": "312cc4eca7358472b346d30431eb17cd05ae0133c97e196682db63f5f4c76e3e"
+    },
+    {
+      "name": "lock",
+      "label": "Lock",
+      "file": "lock.svg",
+      "source_sha256": "19f7298c6fd09dd1a859296d38420bcf8c812abd1c30da8f759128dc0ca489bd",
+      "sha256": "28cebe55c270e73b3e4006e5d48aa96d5e6aaeaaaf8e5ec6c7074ba43552b84b"
+    },
+    {
+      "name": "login",
+      "label": "Login",
+      "file": "login.svg",
+      "source_sha256": "16875b255dab09b8489c8cc9182ec0eb01218b406d8d476c4aa1a6de60e054f5",
+      "sha256": "0d742a79ce4a2cf8db87339bdddda16e30780c7bcbe1a217543c87c228ca9bb3"
+    },
+    {
+      "name": "logout",
+      "label": "Logout",
+      "file": "logout.svg",
+      "source_sha256": "35c28f05e8e185b15582034154a5704e7b90970e91bfe59b9c30f81d36f59d5c",
+      "sha256": "0c7c290490615e7f5ef7c3a57c3e660c2ec4be7606fbd7e829ba6a63e4aa25e1"
+    },
+    {
+      "name": "loop",
+      "label": "Loop",
+      "file": "loop.svg",
+      "source_sha256": "1cc5b065bca426d2daed94073652e6808e8628b9546308ce2fe62b32654cdb77",
+      "sha256": "7088ae284a418b4701e7c789aa1993d614d133555697c1e0f81fad38af8589f6"
+    },
+    {
+      "name": "magic",
+      "label": "Magic",
+      "file": "magic.svg",
+      "source_sha256": "2e254d8947786be84218a7eabe83e3805fd8d3015f5770dc6ab76e44911b333c",
+      "sha256": "bf0d904beb082520c4872dceaa84c75beb2bc629ae09001c3294c0360fd67543"
+    },
+    {
+      "name": "mail",
+      "label": "Mail",
+      "file": "mail.svg",
+      "source_sha256": "368823b55607904a81b2573408e83d262ff0a88003cacc872fca13fd2f931120",
+      "sha256": "a92151907bc62c90aeb288c4b74b37c77b4c70e2d842bfeffa3dd2facc9b8a93"
+    },
+    {
+      "name": "map",
+      "label": "Map",
+      "file": "map.svg",
+      "source_sha256": "746d9730f8121547bb0c76ba7f446e75876658ed7d7918e51d9fee3ae408762f",
+      "sha256": "ef0b18a84bd74f7b459830439d33e9019235cee1c9c62d57789b6b92b2cef587"
+    },
+    {
+      "name": "mask",
+      "label": "Mask",
+      "file": "mask.svg",
+      "source_sha256": "f1fc704c901618f941bd368261ef4c02477d5e1e60de3e6a589d8503257d379e",
+      "sha256": "0eed259de36349c879d842dfd9d14487392dd1dc8ec44e95708c16c764a85b26"
+    },
+    {
+      "name": "medal",
+      "label": "Medal",
+      "file": "medal.svg",
+      "source_sha256": "9d17c2caf75ab0e8004a3729ff71388b5b307081ce6dccfa9a78d78ac7192ce2",
+      "sha256": "b8143f460adf94bff1ffc88457da7211e335c8b6012d6df2e8b61febb7d4f877"
+    },
+    {
+      "name": "megaphone",
+      "label": "Megaphone",
+      "file": "megaphone.svg",
+      "source_sha256": "56706e8a0a6141647958b3fa37d472f0907b1abec5c7543175f1781106b00af3",
+      "sha256": "4450d8f982cc1a76a06a1b8366df400e9d5010a8d2fca8bbbc52c730b5a40c92"
+    },
+    {
+      "name": "mention",
+      "label": "Mention",
+      "file": "mention.svg",
+      "source_sha256": "ad2c0acd56ac9a226552366f465460fffd6f9feb68bde9f0ccac18db8009dbfe",
+      "sha256": "f52c48da6c577287f52ab49aced88f7774e08e3af6647eabd7a84d2d916a49ac"
+    },
+    {
+      "name": "messanger",
+      "label": "Messanger",
+      "file": "messanger.svg",
+      "source_sha256": "8dfbce26f434f1d24aaf4c8e113ed9d3bf91631cb07ca864c237cff34ea66c01",
+      "sha256": "cce78b8d537326557e2b7a79a8499b2694fc156538a49f7885451cfa35584957"
+    },
+    {
+      "name": "minus",
+      "label": "Minus",
+      "file": "minus.svg",
+      "source_sha256": "c7eda5f67631ace893f59dcf8e9803071951fb63f0bd1162d5304af5154430c7",
+      "sha256": "629722837fa7e45e0239dc8278458e980568da9e330f46dc0ddab3a6e3b8ac4a"
+    },
+    {
+      "name": "mitarashi-dango",
+      "label": "Mitarashi Dango",
+      "file": "mitarashi-dango.svg",
+      "source_sha256": "ac7ce581b122afbee932d1557b4b4a6d0d243feb500c89773ea1f8f2af997ea2",
+      "sha256": "d5b7c64f3c620327f7193678e5028f8490c457f022fb26ed56995952aac0b128"
+    },
+    {
+      "name": "mobile",
+      "label": "Mobile",
+      "file": "mobile.svg",
+      "source_sha256": "4b3149cffe4b39813e45a744fb7c1f1c77907fbd029d17eccbe927882e694929",
+      "sha256": "5b31b5807bd45f33bf3cc5eee1fcbf8e917fcf3a449fe27706b1c83e5441bbe3"
+    },
+    {
+      "name": "money",
+      "label": "Money",
+      "file": "money.svg",
+      "source_sha256": "a6e2b9e533cedc1c4ef2f219c25b758f38f7c075df65b8071f9b23c02b649332",
+      "sha256": "0ef3c3129cb9aa6f5f65cb3d4f59c150809af97d10c3949027ad7ebc4de13713"
+    },
+    {
+      "name": "moon",
+      "label": "Moon",
+      "file": "moon.svg",
+      "source_sha256": "b12fc3b391d0eabcb34fee6bf422938148a3272ba481111eef2e78c86007879c",
+      "sha256": "efda5d65ea7619bcb44294b8c7a52cbd137d4761ddbc57ce99a17defefa210ec"
+    },
+    {
+      "name": "mouse",
+      "label": "Mouse",
+      "file": "mouse.svg",
+      "source_sha256": "abd39beca0a435d6532f5e0e2971993ee0900893615746844ae7d7f563c10e64",
+      "sha256": "20f4ea21bf17d6c68e467786e241dc579d99ba4db7ba8b214631b2da2fba58e6"
+    },
+    {
+      "name": "music",
+      "label": "Music",
+      "file": "music.svg",
+      "source_sha256": "74d04202b6ac24069b3620ac44e2a80841ae6035cb9f20727d07527e812a2a55",
+      "sha256": "2d53f881d149fd271b6293927d5bd064b43b0bf60a554aa5993cdcea2628df28"
+    },
+    {
+      "name": "notice-active",
+      "label": "Notice Active",
+      "file": "notice-active.svg",
+      "source_sha256": "1506cc126b5060f828a1773ce44556db851db95286136ec6a33ec33163ac3265",
+      "sha256": "67403eca146b1bd0b4d42947a51824bded25b85651851d5f181aa53e420df48e"
+    },
+    {
+      "name": "notice-off",
+      "label": "Notice Off",
+      "file": "notice-off.svg",
+      "source_sha256": "19fb0a24810a6970297cea2251f594b868afdf38ea2c970d8514040273ec6b53",
+      "sha256": "4610e733e674b927a0c0c99671b3a9149e8a0ec2e4d70ca5f0edc88b6aec7ad8"
+    },
+    {
+      "name": "notice-on",
+      "label": "Notice On",
+      "file": "notice-on.svg",
+      "source_sha256": "5edd83cbbce4c29596b0de7a6bef1cca3e4dfd8c8d299ecf8422362f9b120a01",
+      "sha256": "f08c755c2bd10dfefb586027827198395e0a0c829f9cd7b20bcf1906c47baf66"
+    },
+    {
+      "name": "octpus",
+      "label": "Octpus",
+      "file": "octpus.svg",
+      "source_sha256": "368c047ab96be2813080de16736262e4b13eb7a9a30c7cee0218b43fa31ca1b5",
+      "sha256": "ef32abbae2b60d145a5e449ff194642c30b9679416040f7f26149a7052fdd530"
+    },
+    {
+      "name": "open-mouth",
+      "label": "Open Mouth",
+      "file": "open-mouth.svg",
+      "source_sha256": "c4a803ea2e33cbc60be79d48f60896f710dc44bba8ca8b80ae3c35ed136e056b",
+      "sha256": "87b32505a6cc5f7cfcf7d7e62685384c8f80b393c3b3606161af945fd4161221"
+    },
+    {
+      "name": "palette",
+      "label": "Palette",
+      "file": "palette.svg",
+      "source_sha256": "97425381e3473059923908ae2efe48c39d4eea7bc1dfffa555034a53fe32b2e6",
+      "sha256": "0f072c452ea992b39c1625c81013db80437fbf85265fd7236b9b146a3ced048b"
+    },
+    {
+      "name": "paper-plane",
+      "label": "Paper Plane",
+      "file": "paper-plane.svg",
+      "source_sha256": "9b4960fa2f38b185c3170ca5c922e23a8448397a4bc9d820d3f5c19f9243eb4f",
+      "sha256": "5ef7f5d6f0d89f8b25015bae22fe84cd49d59bf501d37d9273d389da386fc676"
+    },
+    {
+      "name": "pause",
+      "label": "Pause",
+      "file": "pause.svg",
+      "source_sha256": "dae06b2003e019c8d7c5a6aeebbf92e5204186900a85aecc1fed1370ff16768c",
+      "sha256": "81872fdd6778fab15aab7720bce46c9271f5187b8170c4755722f029e81b6634"
+    },
+    {
+      "name": "pencil",
+      "label": "Pencil",
+      "file": "pencil.svg",
+      "source_sha256": "dc455c38598d400f295aadc72d69c04a2d04ffcdb47be7c63bdebafe7685f8be",
+      "sha256": "8e68854d4d4f1b072cec17d099b411a6a8e916ee35cab166bc3ff127e3f341e4"
+    },
+    {
+      "name": "phone",
+      "label": "Phone",
+      "file": "phone.svg",
+      "source_sha256": "3f2afcdf27119496e63913ed014ead28c26f5d8335b10cd080b531c059cab995",
+      "sha256": "8b2293f6a2227461a6ab8a5e98011b28d4b0cd4edf4a1bf49b81cabf7daea103"
+    },
+    {
+      "name": "picture-square",
+      "label": "Picture Square",
+      "file": "picture-square.svg",
+      "source_sha256": "bedfa89f199ab474e2a87cf313f64b197e0732f8c692e93fc75d2559aaa19f4d",
+      "sha256": "5793e2f60783b509a56466736070d0707fc24c07ef3b1518bd93e57c7e2fb7e0"
+    },
+    {
+      "name": "picture",
+      "label": "Picture",
+      "file": "picture.svg",
+      "source_sha256": "a2f26fc37ac459c411ff465cc115c2d0a5f89cd0de2e7de6683331d51565b6ea",
+      "sha256": "6f5ee0b9e062491a57aa948f9026fde7cfc173356953f7a76df38605d918d564"
+    },
+    {
+      "name": "pie-chart",
+      "label": "Pie Chart",
+      "file": "pie-chart.svg",
+      "source_sha256": "c00ae0e2cba56aaccb44d9d94b6e7e2024dba2afcef055eb081975f4e30c7232",
+      "sha256": "d0fd4fdcdb17354072318f3fd84b2642e98cb022d52989ee59c3fc28b4ddc4d2"
+    },
+    {
+      "name": "pinterest",
+      "label": "Pinterest",
+      "file": "pinterest.svg",
+      "source_sha256": "cc4253e036342c3223fe01383817d6b9533fdabf2757578c093923f62086e2e8",
+      "sha256": "d2e8aed88c358b0782235627dabbaccb44f465d2ab4e4455d6b4ff4fc5b10a48"
+    },
+    {
+      "name": "pizza",
+      "label": "Pizza",
+      "file": "pizza.svg",
+      "source_sha256": "f377bf2289212be01f0310e035053d96a496c43c26dac6285c586a6ed86d0007",
+      "sha256": "d34ba136325e45759837c78c4b70ea5fc00f4c200f9e5ef18002aba080e3b7f5"
+    },
+    {
+      "name": "play",
+      "label": "Play",
+      "file": "play.svg",
+      "source_sha256": "0a8b2beab530c2bc629f3655b24620f2f58caf724d9f9d701eb4bb092a5e03b0",
+      "sha256": "cfbb869b15703ecc0b1b8dfa80e9034ebbcd1ed27bbd7233ceda5f861cbfdebd"
+    },
+    {
+      "name": "plug",
+      "label": "Plug",
+      "file": "plug.svg",
+      "source_sha256": "0ccc90348b77676bff566eb05dd6a3b9c2d8fc5be8d952039069c27f9580fc1a",
+      "sha256": "16a4020941c33f30387d49845f422c9c3d239e3e32488bfc16bce81297f3e6e4"
+    },
+    {
+      "name": "plus",
+      "label": "Plus",
+      "file": "plus.svg",
+      "source_sha256": "f4723e16acd308bf35cc909302dcf4617aaf90f621cd8e484f7cc5390a42e20d",
+      "sha256": "e4dec766614053bf7c73f2f61b12e0caaea722307b608b33798f1d6543e9e6f3"
+    },
+    {
+      "name": "pocket",
+      "label": "Pocket",
+      "file": "pocket.svg",
+      "source_sha256": "6bb440e5a7bd3b890e8f7c0ca41b666c038940a1eac4fd98a6f31367e48ab831",
+      "sha256": "3d99745355fd7ef0019a3f064bb77b3c31eeace76f8d9d16e689936fdf75af2f"
+    },
+    {
+      "name": "pot",
+      "label": "Pot",
+      "file": "pot.svg",
+      "source_sha256": "4ba8ba4367b07511a8b85100db2b0ce8ad629a82aff0db4fb1e58a2b427fb041",
+      "sha256": "9b0eeab0429f5c3f304643e26e0ff4e92cde65ab01baf610793c7809d6004f1c"
+    },
+    {
+      "name": "print",
+      "label": "Print",
+      "file": "print.svg",
+      "source_sha256": "b7e68b3bcd10581952b3f4431536e4bfacdd7220e9485a873afa46c59513247f",
+      "sha256": "72c34053401c93bc81770264a4eb648f9466613db8eb4f9e1213270d59af9edc"
+    },
+    {
+      "name": "prototype",
+      "label": "Prototype",
+      "file": "prototype.svg",
+      "source_sha256": "0d3f4cb381cecbb133cad1e07809587939dd454488a9ad84a44700e926c5bf75",
+      "sha256": "f08aaf54b1b9b809fe4ddab76a94d44038da267f32672a1c8390d93528c2d8f7"
+    },
+    {
+      "name": "question",
+      "label": "Question",
+      "file": "question.svg",
+      "source_sha256": "cb7af1c410ce147928a93343b2c9fc23ed6b5d80bc942f5223a7edf6f9464c1b",
+      "sha256": "cf55d83be26369cb7741adb1573ce719bf3a7c10f15c2a28005e8d1267c23eb2"
+    },
+    {
+      "name": "quote-left",
+      "label": "Quote Left",
+      "file": "quote-left.svg",
+      "source_sha256": "2ff662df48f71d6d833c290c2a2272510ffebaf24039a81794705b07324fa10f",
+      "sha256": "d67a08349dbc97cd5b1734f67f006c4a6f10b24fdec4230f42e04125d0b545a6"
+    },
+    {
+      "name": "quote-right",
+      "label": "Quote Right",
+      "file": "quote-right.svg",
+      "source_sha256": "c0404f65901d266612a4d72b6ad5a75f47e46a1804ab01f42d03148b8816d43b",
+      "sha256": "19a03315e2fe7dea7daf6235c47d433e1f4887d7a417dd063914e260635b84a0"
+    },
+    {
+      "name": "rage",
+      "label": "Rage",
+      "file": "rage.svg",
+      "source_sha256": "d7847ec8891e60534778e3925e3a3cf65666dc6ac33ef2f249f72190b9a35e1e",
+      "sha256": "e697646d60807948545d7faac17274af874608daa36f04e52761c82adefaa857"
+    },
+    {
+      "name": "random",
+      "label": "Random",
+      "file": "random.svg",
+      "source_sha256": "8f59c75fcb2a4f536f28906c78307fd553562af1d92fb3c6ec631543d031ddc3",
+      "sha256": "c39c741577505eab619ef729265839e42d65e978a493d1c640e9231686d4d3a1"
+    },
+    {
+      "name": "remove-cart",
+      "label": "Remove Cart",
+      "file": "remove-cart.svg",
+      "source_sha256": "16252505b8138f68f0ab91defc0dc52d1e591b7c58e9e5f94707b28acc207b62",
+      "sha256": "7013235ed83f153f94842ed429aa351142669ca5ce2db7f9380cef6e0638efdf"
+    },
+    {
+      "name": "rice-cracker",
+      "label": "Rice Cracker",
+      "file": "rice-cracker.svg",
+      "source_sha256": "16acc933401722b1703148d3d7519068af9baf688d242262d79c1b59a3a40907",
+      "sha256": "3ae3070305175e29f206ad66801792d29ed673c2f4c9c9cf0c351e94f6a0e919"
+    },
+    {
+      "name": "rocket",
+      "label": "Rocket",
+      "file": "rocket.svg",
+      "source_sha256": "ade15adfced19c865509adb45ad220a8a668668264a5d1f70c3f20a0cbfa3dbb",
+      "sha256": "6e4fd35b8522575de6d9ead1a3a0c1af3257d406f11b0e1f893da0ece0a3df83"
+    },
+    {
+      "name": "scale",
+      "label": "Scale",
+      "file": "scale.svg",
+      "source_sha256": "b57d6b504fe5e83f06c1bab4c7cb66a12395bd37151fcd2fb4541650031d7085",
+      "sha256": "093a61e37e8edf4661152e9d0062b2fe728731253ea3aa8624ae83893ae80c64"
+    },
+    {
+      "name": "search-minus",
+      "label": "Search Minus",
+      "file": "search-minus.svg",
+      "source_sha256": "0474786d99797c8022685e4357552e39d0ad845d91b25f9a94fcf68e28e82437",
+      "sha256": "1354d93df118769b8a730f5753a3f2e2ab12bda01c5806ed9e620bb68410c671"
+    },
+    {
+      "name": "search-plus",
+      "label": "Search Plus",
+      "file": "search-plus.svg",
+      "source_sha256": "5203f1543d0803c3983822c06fa6b09891ab5f8c0f4f5d6cd5ae180cf3df57da",
+      "sha256": "5d65fca187d2cfa9fd100fcc263d88a62a17cc8c3ae28d9ead2e62293dc63161"
+    },
+    {
+      "name": "search",
+      "label": "Search",
+      "file": "search.svg",
+      "source_sha256": "1e98f8fc12ecf2dc197be822f182701ad560d21431bed9621e8b4a100b59ad27",
+      "sha256": "fa46127347518ba6fcb6221707b4711e0a2f130c273bdf825c0333aa85bc5962"
+    },
+    {
+      "name": "share",
+      "label": "Share",
+      "file": "share.svg",
+      "source_sha256": "7cb834d3c2b5f6fb25c0db673454ed291c5f02120088895581e54654a2e4fbf7",
+      "sha256": "48fb05f93b16d04648fd7651acf9cafc710b688b1df17cc104e0e1df0f9337e7"
+    },
+    {
+      "name": "shield",
+      "label": "Shield",
+      "file": "shield.svg",
+      "source_sha256": "d164117292ba60e5b94bec99b083479da9bfbcfd25ba986a991e7531ad3f5e9c",
+      "sha256": "50e75c494e8a73599160ebf9720879e243432b7b497d3b76e1660752aabeffd4"
+    },
+    {
+      "name": "shopping-bag",
+      "label": "Shopping Bag",
+      "file": "shopping-bag.svg",
+      "source_sha256": "fe2a78fe6c1612ade27af9e132de0c94bb12ca982d698def04ee9aca1a2e9d4f",
+      "sha256": "6a3b21a1bc245cb25c761b2327216cf8db693098d552173e0490916f95af3b78"
+    },
+    {
+      "name": "sitemap",
+      "label": "Sitemap",
+      "file": "sitemap.svg",
+      "source_sha256": "692e929fb0f1ba01b4c78f647bb795fed4c2843cbae7065c94afcbcf9c555fe5",
+      "sha256": "077bb516056f02761ba33f08ec53eac387e8aebc0f829334e30cbd0a3ab9ea2a"
+    },
+    {
+      "name": "smile-alt",
+      "label": "Smile Alt",
+      "file": "smile-alt.svg",
+      "source_sha256": "c0d5780f01545e5a2e5ba5c569acc19a1f4aae942aab0d8207d16fc2f37f47fa",
+      "sha256": "dcf733f1e11e2e3fc68e8a3932f488f377113cc68344e6cea4c7acd8d53d5524"
+    },
+    {
+      "name": "smile-heart",
+      "label": "Smile Heart",
+      "file": "smile-heart.svg",
+      "source_sha256": "5d76e6fcde936f623ec77257799e9dfb3010503d7bc8830b325fd42ee151ec35",
+      "sha256": "4cc283da1edf0ed366425b4a39d118a5e25c32b5b5950ea47b6aa0dc37a5b8ce"
+    },
+    {
+      "name": "smile-plus",
+      "label": "Smile Plus",
+      "file": "smile-plus.svg",
+      "source_sha256": "958bf4c850462493a7008ef9b91dfa2b76e58d8e06a9225708f9dd65d8c65e7e",
+      "sha256": "95ee955aaca90da0ea142307196f999b3ad517ff6223784fcd0bfa2614180247"
+    },
+    {
+      "name": "smile",
+      "label": "Smile",
+      "file": "smile.svg",
+      "source_sha256": "2adb7118c217125ca5be06a63d0d971393b84ae385eff4145e4af734d91b1aa4",
+      "sha256": "f80a582966ac8b4a21aa9a79e204f9889fce83d2d4ef7f7a53ff407f6caf188a"
+    },
+    {
+      "name": "speaker",
+      "label": "Speaker",
+      "file": "speaker.svg",
+      "source_sha256": "bfe69f7c59800479757c98056303d1bc18b6d6d22f834272bcf7878fd9688e49",
+      "sha256": "378adf61679c489342c35ce58f8e1a6318434286cb4870f63d05e8badc1e1e73"
+    },
+    {
+      "name": "squid",
+      "label": "Squid",
+      "file": "squid.svg",
+      "source_sha256": "9ee568a51f899bccc6067d635ae6f121b7e8bb2489118dff798191c210cf7e74",
+      "sha256": "1e34efa36be421e7044d433882479c69a5b303551e272a4233301ad0c6824b07"
+    },
+    {
+      "name": "star-o",
+      "label": "Star O",
+      "file": "star-o.svg",
+      "source_sha256": "bbdd2e261ea7afbdeca6a478324649eb8e6c79b95dc8ba73fbd912b75bf45ce2",
+      "sha256": "141c6ecc66464e991bf51a982b73c7b92b39deef7feb66887646cfd58258fc00"
+    },
+    {
+      "name": "star",
+      "label": "Star",
+      "file": "star.svg",
+      "source_sha256": "6ea1b8dfa3b692517e1690365cbf933f276b5af0999c43f4737b7ae96cb64fd4",
+      "sha256": "bad070da9ed8c53cfbd7ab64ce77d7fe32852862f5745c834eb0406182f7e535"
+    },
+    {
+      "name": "step-backward",
+      "label": "Step Backward",
+      "file": "step-backward.svg",
+      "source_sha256": "a8ce77a317c93d4450ab7ab44c3c580eb682fc5ac5aabf2d63c8c29d8117a92d",
+      "sha256": "5b0454f2fb230d8ffec78ec37a3fa0def5dd77ea3a4e90afae72af75da4e0a3e"
+    },
+    {
+      "name": "step-forward",
+      "label": "Step Forward",
+      "file": "step-forward.svg",
+      "source_sha256": "0b84f9ba5180f11f77a4c0a0b44c90e822c0e237a7524f64a033e035bd27ad62",
+      "sha256": "8a34ff50ca2d260129bc61ae0776b23971183b30dfba2a7461901a37324d16a5"
+    },
+    {
+      "name": "stop",
+      "label": "Stop",
+      "file": "stop.svg",
+      "source_sha256": "b7746cdca03ab8579049fc2e90455e23bc8dc8ce2399b3be1482b7f9035d2f8e",
+      "sha256": "8e3c33c5f415cf4419d9ecbc3fc7543119dc265ddd0fa5743d99c7cb35e2d446"
+    },
+    {
+      "name": "subtract",
+      "label": "Subtract",
+      "file": "subtract.svg",
+      "source_sha256": "3a130ecf65317efeac5c193e2fdd680f8f3a9a4b87ccbc3f80e32fbb275a7051",
+      "sha256": "55d8368d0327a853a1abe2cad2a2f1c06d07311c6f479f78758e4955be494d7f"
+    },
+    {
+      "name": "sunny-o",
+      "label": "Sunny O",
+      "file": "sunny-o.svg",
+      "source_sha256": "ddb6ee211d5deb0c1c7e350e0ee26cc5f88e9d13c4c253fa938942875ae7c1fb",
+      "sha256": "76cab452155d4c13fb4c9d6a73655ab8ecf1b68b9d674da92ef0056e5b53ce20"
+    },
+    {
+      "name": "sunrise",
+      "label": "Sunrise",
+      "file": "sunrise.svg",
+      "source_sha256": "ae76ca4fa5095ed0ec7104b498a66d46bd921673a465d8ed5c997bdda092bc7c",
+      "sha256": "473ea942563d66098fb393c6ba4e1a2e9e02016c507413c38f28d2627bc88313"
+    },
+    {
+      "name": "sync",
+      "label": "Sync",
+      "file": "sync.svg",
+      "source_sha256": "d6e93742fa4ae4d9c62367c74a7fc42e6f197af48465c3efe22e548d7631efcf",
+      "sha256": "7088ae284a418b4701e7c789aa1993d614d133555697c1e0f81fad38af8589f6"
+    },
+    {
+      "name": "table",
+      "label": "Table",
+      "file": "table.svg",
+      "source_sha256": "9afc02179df7e9592cb4c347109137ad5cd1177bb25f2d3bb95997711f21368e",
+      "sha256": "563ce165b32e7a3e15a8ee1fcce8231cd966d218f22f5d0abdb011c4a8089ecf"
+    },
+    {
+      "name": "tablet",
+      "label": "Tablet",
+      "file": "tablet.svg",
+      "source_sha256": "3327b3d4016df629261dbd8f37d314304d7c2e3596a5f8a3368b6b4cc84cf8af",
+      "sha256": "df0ba83fe897e06debd07e1d2f61d6e5beb17a4353e00cc12e7ac71d837f227f"
+    },
+    {
+      "name": "tag",
+      "label": "Tag",
+      "file": "tag.svg",
+      "source_sha256": "b4f8f346f3e633648b8430d630cf002b6a69901d5a5f4926b6706350a7e22e07",
+      "sha256": "31054c1695581e6d2754d811dfe7b07c772f5e24687b97b2d2d50b3625878c11"
+    },
+    {
+      "name": "target",
+      "label": "Target",
+      "file": "target.svg",
+      "source_sha256": "03c19902b6d6a6f923678ea3981e86390733e3edd4fa2fc64742ea850dca495b",
+      "sha256": "605b2770d2143789cec8ac59b06505cb64bb23974c89ee36d542d0d5c1382e1d"
+    },
+    {
+      "name": "taxi",
+      "label": "Taxi",
+      "file": "taxi.svg",
+      "source_sha256": "d786003f2ea977a0e57d235158e88d44fecb727dbdc9b63531aa20c6289e4e64",
+      "sha256": "e314038d911416fcaab6300bdba8509805d2656f8c6f5a32edf378e45a03bf13"
+    },
+    {
+      "name": "terminal",
+      "label": "Terminal",
+      "file": "terminal.svg",
+      "source_sha256": "a645816c98d2db7b20f31a072eb401620affce8c5517c873c47803b7700877d4",
+      "sha256": "50a7be2213aba185173db0e1049cc33a3cc7255bdce7a53f193a69566f74a46f"
+    },
+    {
+      "name": "text-align-center",
+      "label": "Text Align Center",
+      "file": "text-align-center.svg",
+      "source_sha256": "52ad032ceed929e8b8a5829e35bc0f0dd68ebbe82c51050addcf5f029389f042",
+      "sha256": "d4f376a1663c6d7b7bcab3d1ddcb983f8eb50e2830e6b6c24802a620ffb48b02"
+    },
+    {
+      "name": "text-align-justify",
+      "label": "Text Align Justify",
+      "file": "text-align-justify.svg",
+      "source_sha256": "cc1dae8bb26656a854fcfc183c3429358f879c1dceed00d01b5a4bf3f416e887",
+      "sha256": "98a4245bc05e2e9edcd62b14b218d5d61b063f57c2da690db236914636205a82"
+    },
+    {
+      "name": "text-align-left",
+      "label": "Text Align Left",
+      "file": "text-align-left.svg",
+      "source_sha256": "d360e7849c56330715e72a12c47762de12d41e46d98478b9dfee515cc592799f",
+      "sha256": "85e1fc858f7edc9bbee24d1f93ba6caf91b36ba58a41b9b813c680cd04a34e62"
+    },
+    {
+      "name": "text-align-right",
+      "label": "Text Align Right",
+      "file": "text-align-right.svg",
+      "source_sha256": "22e6fa49d519d8d19ff89208e209de0437027e87289230fe1898e1af5208ab36",
+      "sha256": "9d40a19bf9a8075a3e56872c99c38160c702dee68a84f801d86e0d2430a66fef"
+    },
+    {
+      "name": "text-size",
+      "label": "Text Size",
+      "file": "text-size.svg",
+      "source_sha256": "0867ae5f856492e3107ede73f5704ac2815119b1f5cff35d540ac05e29594625",
+      "sha256": "ce2f5967b2016d02bd425879001ac257f6c0994c9a8721f18cd0e2423ff6d4f7"
+    },
+    {
+      "name": "ticket",
+      "label": "Ticket",
+      "file": "ticket.svg",
+      "source_sha256": "14b3f1a2b623c3724ec4a6019c798731d1c0fde2dd6f1e154430e17054203004",
+      "sha256": "962286925fdddc00d3822e0c2420a783acf9bc6389c8f36a5f0af648ed437fa7"
+    },
+    {
+      "name": "tiled",
+      "label": "Tiled",
+      "file": "tiled.svg",
+      "source_sha256": "d13e3b9f40d4456c9a2c8a131eb2ce38e79e2c4e65238812859bcd3515658a79",
+      "sha256": "19a6ef0bd9bac0ee5b15a6f0072a947da585608695db36667904cbf86f91c56a"
+    },
+    {
+      "name": "timeline",
+      "label": "Timeline",
+      "file": "timeline.svg",
+      "source_sha256": "b7099e86d78437d2c66685a713730a0e8aba7fda5514b46bc30c406e8d9c7070",
+      "sha256": "26c2978e6b5d300e45c08a776a8162a6f2344b30a914ee377d8b87ecda2638c4"
+    },
+    {
+      "name": "tired",
+      "label": "Tired",
+      "file": "tired.svg",
+      "source_sha256": "c46ab597b2d1a4cbb9944a2bcc3deff36f25696dda06dce2a5682a161296ca45",
+      "sha256": "58741d21519013f5780e05e490ad5c8fdc47b4bbc0d65013da3a6299b187bd91"
+    },
+    {
+      "name": "train",
+      "label": "Train",
+      "file": "train.svg",
+      "source_sha256": "263d8757df55c27fc4ed6e13549cb439cafbb27995fe34d0a15da8c33ee95104",
+      "sha256": "951e805b9d2e2a2ae70e64cce81be4e60d4e328387100eae0226778fc646ba9d"
+    },
+    {
+      "name": "trash",
+      "label": "Trash",
+      "file": "trash.svg",
+      "source_sha256": "0c53b05b8845bb08a1b35a09e6efcad260b4b2e81698169bd779e1fa0164b2bd",
+      "sha256": "a5c3655274b7c7d9194a1b74934e260e674477aa4e6d797758c7d6e77b39bb99"
+    },
+    {
+      "name": "trophy",
+      "label": "Trophy",
+      "file": "trophy.svg",
+      "source_sha256": "e1ab5b3f3ec15c457a3948ecbaeeae7f9923663304d76f886d53132de69b7df5",
+      "sha256": "6c2a83c7ee861f54d4233b5ceacbe147a67b6d5d29398c33f47b3bfcc2033233"
+    },
+    {
+      "name": "truck",
+      "label": "Truck",
+      "file": "truck.svg",
+      "source_sha256": "92d759a7cd06c448d095188d73386aa8779e6fddb2a459b075bad74b1f5ea727",
+      "sha256": "a51ef438012fc163718050d03a660b57fe2b7b79857137e4b1962cc788911e48"
+    },
+    {
+      "name": "tumbler-glass",
+      "label": "Tumbler Glass",
+      "file": "tumbler-glass.svg",
+      "source_sha256": "19d0b45fc2ae3dd2b78854322005b0f30404b0f126b4ce776fedd05914b06575",
+      "sha256": "6f11190bf14cc8430b7b6d4fc1fa127b25492b3bea0ed6c20801d158adb8218a"
+    },
+    {
+      "name": "twitter",
+      "label": "Twitter",
+      "file": "twitter.svg",
+      "source_sha256": "24158d067259e61643f620285dd491b7b41958dcc2624b8c35f0acb8148c6e1a",
+      "sha256": "fac75f87ec227e213fd5462257734a0bfa1d8603734bff8c76ddcd2488fdcb69"
+    },
+    {
+      "name": "umbrella",
+      "label": "Umbrella",
+      "file": "umbrella.svg",
+      "source_sha256": "406c88a55b29c4529dfd8c54e874ace56d11b89a18f70cebae9069a16092717b",
+      "sha256": "f83e4bf136bdfba70ac0262fa59659c1645c1f119ab3db49b01879a4f3cbfc1f"
+    },
+    {
+      "name": "underline",
+      "label": "Underline",
+      "file": "underline.svg",
+      "source_sha256": "7e6bc189f7b1c6da22d4123d98e42f81e1833c769c92830707817d071a4f7443",
+      "sha256": "531c421eeb920f26855c384ecd96689a16be1de3b80240adda1dbf2f0969b41b"
+    },
+    {
+      "name": "union",
+      "label": "Union",
+      "file": "union.svg",
+      "source_sha256": "919b02a280d525a47b6858d826d5678eb7cf87287216aef52c688ec3b1cb654a",
+      "sha256": "947b902fafdf6bc75e79fc7cccdfa1d04e9bd90499904e09a641027e3de53eee"
+    },
+    {
+      "name": "unlock",
+      "label": "Unlock",
+      "file": "unlock.svg",
+      "source_sha256": "7f6e5c4f1c6b450df5aa76d7b3a79417c692123af43e7489e23855692f1f6cd6",
+      "sha256": "eb8f87f2d8d57f80ef7be1521f52dd6a4926eb2e7b493f5d0849c56eeed36eb2"
+    },
+    {
+      "name": "upload",
+      "label": "Upload",
+      "file": "upload.svg",
+      "source_sha256": "7b0bd49a827cefc08c5cf9082805e4df57555b677b544bd0aa5b6fbf13349166",
+      "sha256": "39197f33fa45562fc27f2685f6f64ee59a6ff214b0f6157607903b47f2231863"
+    },
+    {
+      "name": "usb",
+      "label": "Usb",
+      "file": "usb.svg",
+      "source_sha256": "577afa19ee0d82f396c52907bc7eccafd506ef2dc7d2ae34112c28a05ac61d41",
+      "sha256": "003f16d1eeb99cf24aaed01338a66a328f85e6fa2cece34fff9e75dc63bd315e"
+    },
+    {
+      "name": "user-minus",
+      "label": "User Minus",
+      "file": "user-minus.svg",
+      "source_sha256": "2cfbc9839c1bbb8c9c6aa151359ec6f22b3f5c259b2d7a350bfd1374e1fb9200",
+      "sha256": "5f9dd0c246ee878ad2841b311914ca12eb8d59bafc103b7174d64dcc890ff182"
+    },
+    {
+      "name": "user-plus",
+      "label": "User Plus",
+      "file": "user-plus.svg",
+      "source_sha256": "b035b25714c28f2edeadd38981bb6d6eb2a06b96c8228bec13c8080e2a508c97",
+      "sha256": "83b85fc0f35d8b65a365a184b3881c71a59e88909444829145539d26fc11fbb1"
+    },
+    {
+      "name": "user",
+      "label": "User",
+      "file": "user.svg",
+      "source_sha256": "541fca6546b86329824a915047a823446df9a80583935d80c57d8f81eafd32f6",
+      "sha256": "b2fead128221de57f5a96eb62026924de595f916d804e35415d2e8e72875cc6a"
+    },
+    {
+      "name": "users",
+      "label": "Users",
+      "file": "users.svg",
+      "source_sha256": "13b9656e20883b21847d58a497884f5d7c1ec97b7697cf6c3e7fe5d107472a60",
+      "sha256": "137180a16cb06153ca203b4a3a88cdfc59a905303079ffba9ad3fed86b3fd3b3"
+    },
+    {
+      "name": "vector",
+      "label": "Vector",
+      "file": "vector.svg",
+      "source_sha256": "1c276735d5e960c5be79356d57d51e051ce06818e8128353f3577a971fdae2d0",
+      "sha256": "5329c9eb5194f001172f08b859a204fc60efd51c3faeeeace86a1c8e580fe7ac"
+    },
+    {
+      "name": "video",
+      "label": "Video",
+      "file": "video.svg",
+      "source_sha256": "dd541336afac2716c659ec27a56395a4e4b19c1460db9257584d8b5c0ed66de1",
+      "sha256": "1680d0eb816644e6a9709b3f6053f8aad61cc9c50f95713427cdd3128987c32e"
+    },
+    {
+      "name": "vr",
+      "label": "Vr",
+      "file": "vr.svg",
+      "source_sha256": "52df4bc64a1d36b3d014be9c15654da8dbee5e5487f3ededbb094f44957e0f96",
+      "sha256": "9b2dc941ad6e25ed49664a60b288a5ff37dba6160135c1797bdf122d49e33cce"
+    },
+    {
+      "name": "wallet",
+      "label": "Wallet",
+      "file": "wallet.svg",
+      "source_sha256": "9870d7435a15718f52069d55170d6be24cc72a758b1b0d3fa33f5153260eca1c",
+      "sha256": "7c3134b98740d045d0c64d4bfb54021fa42817b32d4cc9875186519c6d6568f1"
+    },
+    {
+      "name": "warning",
+      "label": "Warning",
+      "file": "warning.svg",
+      "source_sha256": "b4c8a1a4f2843647bfc13d7fa948475b4c6577cb13ac3f092357afd992dd9085",
+      "sha256": "b59ea725e6150396d32ccdc704d4298dc2d3299e1b6269bba18919200f05cac0"
+    },
+    {
+      "name": "watch-alt",
+      "label": "Watch Alt",
+      "file": "watch-alt.svg",
+      "source_sha256": "a3dd149607dc05dc8f6f3a1c7d30082bba5d3d42d593f9be5408b5c4cfe423da",
+      "sha256": "c68026416a8b125aead44392574370cac69c5d1e0dbba83f850f000714c5309e"
+    },
+    {
+      "name": "watch",
+      "label": "Watch",
+      "file": "watch.svg",
+      "source_sha256": "01a0a13d01f8abd51a29b4f6944aecb1a2a259b93667c52bf1e3b06870f7ef7d",
+      "sha256": "8e46958b1c1a82670ed9aeead745a12bec9a452043c25d376df7e04053fa9478"
+    },
+    {
+      "name": "wine-glass",
+      "label": "Wine Glass",
+      "file": "wine-glass.svg",
+      "source_sha256": "fcf0239388fa3782131d17df7e7f77d5c8b357d0a900061be39035b4c3b5f5ca",
+      "sha256": "c33ead64261892ee6b80946b5aaf54ab0f78c85877d3ff4e8ead8b98773a5d91"
+    },
+    {
+      "name": "wordpress-alt",
+      "label": "Wordpress Alt",
+      "file": "wordpress-alt.svg",
+      "source_sha256": "8a0b283d4dccc3defe553ce713cef5e1acf010793afa748a9707b70440c13bf4",
+      "sha256": "9f3217bc57b274f079a5bbbb607a32de2100f822732e3b8d69116a3e1cf44c63"
+    },
+    {
+      "name": "wordpress",
+      "label": "Wordpress",
+      "file": "wordpress.svg",
+      "source_sha256": "7522c5aae3726c8a8b00fcb028739ce3a3b93ada108340b23795aaf8ca40b6e8",
+      "sha256": "298bc59c48161c690231b4142284d6726a7aafaa8876c429a519dfab0d796e3a"
+    },
+    {
+      "name": "wrench",
+      "label": "Wrench",
+      "file": "wrench.svg",
+      "source_sha256": "3116ba3bdf2114ce1ed353ed689b6740405d3b7397261e7b8fdc4ca5c114f0d4",
+      "sha256": "52fe75102c88c7623759ab72ec1466780ef9fd8e73114d6fbc32618b0404688a"
+    },
+    {
+      "name": "yaki-dango",
+      "label": "Yaki Dango",
+      "file": "yaki-dango.svg",
+      "source_sha256": "940423950c3eb4428c0207040b4a3cdbe1597cf937c376d9cb8c88565b22d065",
+      "sha256": "b37d4e60ba0167a82e8bc37f8bda72631ddf5a5f29da7855214636ca5969265f"
+    },
+    {
+      "name": "youtube",
+      "label": "Youtube",
+      "file": "youtube.svg",
+      "source_sha256": "6e9e8de093a261d95333b598768d8d6ec46b57e7865115e725eb68a1fd1eedf2",
+      "sha256": "e4c686b675b8f8f5a7dc4d0f1af5cca81934ded01703dc1844da344af82109a7"
+    }
+  ]
+}

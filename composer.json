@@ -8,8 +8,9 @@
     "inc2734/wp-github-plugin-updater": "^3.1.18"
   },
   "require-dev": {
-    "wp-coding-standards/wpcs": "^3.4",
-    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "phpunit/phpunit": "^9.6",
+    "wp-coding-standards/wpcs": "^3.4"
   },
   "config": {
     "platform": { "php": "7.4.33" },

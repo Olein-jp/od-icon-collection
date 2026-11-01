@@ -3,8 +3,8 @@
  * Plugin Name: OD Icon Collection
  * Plugin URI: https://github.com/Olein-jp/od-icon-collection
  * Description: An icon collection for WordPress.
- * Version: 0.0.0
- * Requires at least: 6.8
+ * Version: 1.0.0
+ * Requires at least: 7.1
  * Requires PHP: 7.4
  * Author: Koji Kuno
  * Author URI: https://olein-design.com
@@ -64,3 +64,9 @@ function od_icon_collection_missing_dependencies_notice() {
 	<div class="notice notice-error"><p><?php esc_html_e( 'OD Icon Collection: Install Composer dependencies before using GitHub updates.', 'od-icon-collection' ); ?></p></div>
 	<?php
 }
+
+foreach ( array( 'validator', 'icon-loader', 'collection-registry', 'settings', 'plugin' ) as $od_icon_collection_class ) {
+	require_once __DIR__ . '/includes/class-' . $od_icon_collection_class . '.php';
+}
+unset( $od_icon_collection_class );
+$GLOBALS['od_icon_collection_plugin'] = new \OD_Icon_Collection\Plugin();

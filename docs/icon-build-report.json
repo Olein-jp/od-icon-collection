@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "feathericon": {
+      "source": 255,
+      "included": 254,
+      "excluded": 1
+    },
+    "fontawesome-free": {
+      "source": 2274,
+      "included": 2274,
+      "excluded": 0
+    },
+    "material-symbols": {
+      "source": 4153,
+      "included": 4153,
+      "excluded": 0
+    }
+  },
+  "excluded": [
+    {
+      "collection": "od-feathericon",
+      "file": "src/svg/notice-push.svg",
+      "reason": "未対応要素: {http://www.w3.org/2000/svg}mask"
+    }
+  ]
+}

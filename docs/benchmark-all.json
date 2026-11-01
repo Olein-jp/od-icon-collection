@@ -1,0 +1,12 @@
+{
+    "wordpress": "7.1.4",
+    "php": "7.4.33",
+    "collection": "all",
+    "search": "",
+    "status": 200,
+    "count": 6769,
+    "rest_ms": 2020.33,
+    "baseline_mib": 60.5,
+    "peak_mib": 74.5,
+    "response_bytes": 6840307
+}

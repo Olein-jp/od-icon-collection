@@ -3,6 +3,7 @@ import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
+import { checkAssets } from './check-package-assets.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const slug = 'od-icon-collection';
@@ -15,12 +16,16 @@ if (!/^\d+\.\d+\.\d+$/.test(version) ||
     (process.env.GITHUB_REF_TYPE === 'tag' && process.env.GITHUB_REF_NAME !== version)) {
   throw new Error('バージョン番号を PHP、package.json、readme.txt、タグで統一してください。');
 }
+for (const file of ['includes/collections.json', 'THIRD-PARTY-NOTICES.md', 'licenses/CC-BY-4.0.txt']) {
+  if (!existsSync(join(root,file))) throw new Error(`必須ファイルがありません: ${file}`);
+}
+checkAssets(root);
 const temporary = mkdtempSync(join(tmpdir(), `${slug}-`));
 const stage = join(temporary, slug);
 const output = join(root, 'dist', `${slug}.zip`);
 try {
   mkdirSync(stage);
-  for (const file of [`${slug}.php`, 'README.md', 'readme.txt', 'LICENSE', 'languages', 'composer.json', 'composer.lock']) {
+  for (const file of [`${slug}.php`, 'README.md', 'readme.txt', 'LICENSE', 'THIRD-PARTY-NOTICES.md', 'CHANGELOG.md', 'uninstall.php', 'includes', 'assets', 'licenses', 'languages', 'composer.json', 'composer.lock']) {
     cpSync(join(root, file), join(stage, file), { recursive: true });
   }
   execFileSync('composer', ['install', '--no-dev', '--prefer-dist', '--no-interaction', '--no-progress', '--no-plugins', '--no-scripts', '--classmap-authoritative'], { cwd: stage, stdio: 'inherit' });

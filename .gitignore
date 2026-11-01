@@ -7,3 +7,6 @@
 /.phpcs-cache
 .DS_Store
 npm-debug.log*
+/.cache/
+__pycache__/
+/.phpunit.result.cache

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: OD Icon Collection 0.0.0\n"
+"Project-Id-Version: OD Icon Collection 1.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/Olein-jp/od-icon-collection/issues\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -16,3 +16,33 @@ msgstr "WordPress 用のアイコンコレクション。"
 
 msgid "OD Icon Collection: Install Composer dependencies before using GitHub updates."
 msgstr "OD Icon Collection: GitHub 経由の更新を利用するには、Composer の依存関係をインストールしてください。"
+
+msgid "OD Icon Collection requires WordPress 7.1 or later with the SVG Icon Registration API."
+msgstr "OD Icon Collectionには、SVGアイコン登録APIを備えたWordPress 7.1以降が必要です。"
+
+msgid "You do not have permission to manage these settings."
+msgstr "この設定を変更する権限がありません。"
+
+msgid "Choose the collections available in the standard WordPress icon library."
+msgstr "WordPress標準のアイコンライブラリで使用するコレクションを選択してください。"
+
+msgid "Disabling a collection may hide icons already used in posts and pages. Re-enable it to restore them. Saved content will not be changed."
+msgstr "このコレクションを無効化すると、すでに投稿や固定ページで利用しているアイコンが表示されなくなる場合があります。再び有効化すると復旧できます。保存済みの本文は変更されません。"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid "Library"
+msgstr "ライブラリ"
+
+msgid "Version"
+msgstr "バージョン"
+
+msgid "Target / Registered / Failed"
+msgstr "対象 / 登録成功 / 登録失敗"
+
+msgid "License"
+msgstr "ライセンス"
+
+msgid "Official repository"
+msgstr "公式リポジトリ"

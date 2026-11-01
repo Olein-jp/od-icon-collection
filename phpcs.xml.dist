@@ -2,6 +2,8 @@
 <ruleset name="OD Icon Collection">
   <description>プラグイン本体に WordPress Coding Standards を適用する。</description>
   <file>od-icon-collection.php</file>
+  <file>includes</file>
+  <file>uninstall.php</file>
   <arg name="extensions" value="php"/>
   <arg name="colors"/>
   <rule ref="WordPress"/>
