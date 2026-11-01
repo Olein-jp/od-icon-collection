@@ -19,8 +19,8 @@ const run=args=>execFileSync(binary,args,{cwd:directory,stdio:'inherit'});
 const wp=command=>run(['run','cli','sh','-c',command]);
 let started=false;
 try {
-  run(['start','--update']);
   started=true;
+  run(['start','--update']);
   wp('wp plugin install /var/www/html/wp-content/package-fixtures/od-icon-collection.zip --force --activate');
   wp('wp eval-file wp-content/od-verification/package-verification.php initial 7.1.3');
   wp('wp plugin install /var/www/html/wp-content/package-fixtures/od-icon-collection.zip --force --activate');

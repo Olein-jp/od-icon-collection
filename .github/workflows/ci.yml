@@ -30,6 +30,7 @@ jobs:
       - run: npm run env:start
       - run: npm run test:php
       - run: npm run package
+      - run: npm run env:stop
       - run: npm run test:package
       - uses: actions/upload-artifact@v4
         with:
