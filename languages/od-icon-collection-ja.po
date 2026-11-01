@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OD Icon Collection 0.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Olein-jp/od-icon-collection/issues\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "OD Icon Collection"
+msgstr "OD Icon Collection"
+
+msgid "An icon collection for WordPress."
+msgstr "WordPress 用のアイコンコレクション。"
+
+msgid "OD Icon Collection: Install Composer dependencies before using GitHub updates."
+msgstr "OD Icon Collection: GitHub 経由の更新を利用するには、Composer の依存関係をインストールしてください。"

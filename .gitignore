@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/dist/
+/.wp-env.override.json
+/.env
+/.env.*
+/.phpcs-cache
+.DS_Store
+npm-debug.log*

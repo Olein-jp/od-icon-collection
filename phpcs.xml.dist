@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="OD Icon Collection">
+  <description>プラグイン本体に WordPress Coding Standards を適用する。</description>
+  <file>od-icon-collection.php</file>
+  <arg name="extensions" value="php"/>
+  <arg name="colors"/>
+  <rule ref="WordPress"/>
+  <rule ref="WordPress.WP.I18n">
+    <properties><property name="text_domain" type="array"><element value="od-icon-collection"/></property></properties>
+  </rule>
+  <rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+    <properties><property name="prefixes" type="array"><element value="od_icon_collection"/></property></properties>
+  </rule>
+</ruleset>
