@@ -1,0 +1,82 @@
+{
+  "version": "1.1.0",
+  "date": "2026-11-01",
+  "library": {
+    "name": "Lucide",
+    "version": "1.66.0",
+    "count": 2015,
+    "excluded": 0,
+    "commit": "a630cec77eac6568b989e87e4947a8bfe45caacd"
+  },
+  "collections": 4,
+  "total_icons": 8696,
+  "existing_manifests_unchanged": true,
+  "phpunit": {
+    "tests": 13,
+    "assertions": 26320,
+    "failures": 0
+  },
+  "python": {
+    "tests": 10,
+    "failures": 0
+  },
+  "comparison": {
+    "total": 8696,
+    "failed": 0,
+    "lucide_max_difference": 0.002870540577342048,
+    "threshold": 0.005
+  },
+  "benchmark": {
+    "all": {
+      "wordpress": "7.1.4",
+      "php": "7.4.33",
+      "collection": "all",
+      "search": "",
+      "status": 200,
+      "count": 8784,
+      "rest_ms": 948.69,
+      "baseline_mib": 62.5,
+      "peak_mib": 90.5,
+      "response_bytes": 15282340
+    },
+    "lucide": {
+      "wordpress": "7.1.4",
+      "php": "7.4.33",
+      "collection": "od-lucide",
+      "search": "",
+      "status": 200,
+      "count": 2015,
+      "rest_ms": 921.46,
+      "baseline_mib": 62.5,
+      "peak_mib": 90.5,
+      "response_bytes": 8443323
+    }
+  },
+  "package_regression": "最終ZIPで4コレクションのインストール・上書き更新・WordPress 7.1.3→7.1.4更新・削除・再導入が成功",
+  "browser": {
+    "status": "passed",
+    "collection_settings": "4コレクション、Lucide 2,015件の登録表示を確認",
+    "selection": "Lucideタブでhouseを検索し、英語名Houseを選択",
+    "publish_and_reopen": {
+      "width": "64px",
+      "color": "rgb(80, 58, 168)",
+      "viewBox": "0 0 24 24",
+      "paths": 2
+    },
+    "screenshots": [
+      "screenshots/lucide-library.png",
+      "screenshots/lucide-published.png",
+      "screenshots/lucide-reopened.png"
+    ]
+  },
+  "package": {
+    "bytes": 8678780,
+    "sha256": "367d711b963c7fe482624f6bdc50e09ec35060464158d43ae26de867b5ca869e",
+    "svg_count": 8696,
+    "wordpress": [
+      "7.1.3",
+      "7.1.4"
+    ],
+    "php": "8.3.36"
+  }
+}

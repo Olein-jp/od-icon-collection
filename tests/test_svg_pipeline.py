@@ -26,6 +26,17 @@ class SVGPipelineTest(unittest.TestCase):
     def test_numeric_dimensions(self):
         result=convert('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M1 1h4v4z"/></svg>')
         self.assertIn('viewBox="0 0 24 24"',result)
+    def test_precise_circle_stroke_area(self):
+        import math
+        from picosvg.svg_types import SVGPath
+        from picosvg.svg_pathops import skia_path
+        from defusedxml.ElementTree import fromstring
+        result=convert(self.svg('<circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/>'),stroke_scale=64)
+        area=sum(abs(skia_path(SVGPath(d=element.get('d')).as_cmd_seq(),'nonzero').area) for element in fromstring(result))
+        self.assertAlmostEqual(math.pi*(4**2-2**2),area,delta=0.1)
+        self.assertIn('viewBox="0 0 24 24"',result)
+    def test_invalid_stroke_scale(self):
+        with self.assertRaises(ValueError): convert(self.svg('<path d="M1 1h4v4z"/>'),stroke_scale=0)
     def test_bad_viewbox(self):
         for value in ['x', '0 0 0 24', '0 0 -1 24', '0 0 nan 24']:
             with self.assertRaises(ValueError): convert(self.svg('<path d="M1 1h4v4z"/>').replace('0 0 24 24',value))

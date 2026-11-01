@@ -65,5 +65,6 @@
     "bytes": 5133464,
     "sha256": "99b86bfba411b31038d3aa4fab142276db56177b20b4ca89a76d81ddc29405d7",
     "final_zip_installation_verified": true
-  }
+  },
+  "version": "1.0.0"
 }

@@ -4,6 +4,8 @@ import math
 import xml.etree.ElementTree as ET
 from defusedxml.ElementTree import fromstring
 from picosvg.svg import SVG
+from picosvg.svg_types import SVGPath
+from picosvg.svg_transform import Affine2D
 
 NS = 'http://www.w3.org/2000/svg'
 ET.register_namespace('', NS)
@@ -62,10 +64,35 @@ def validate_output(text):
                 raise ValueError('外部参照は禁止')
     return root
 
-def convert(text):
+class PreciseStrokeSVG(SVG):
+    """線の輪郭を二次曲線に近似するときの誤差を小さくする。"""
+    @property
+    def tolerance(self):
+        return self.stroke_tolerance
+
+def convert(text, *, stroke_scale=None):
     original = validate_source(text)
     # 外部参照などを拒否した後にのみ、picosvgへ入力する。
-    pico = SVG.fromstring(ET.tostring(original, encoding='unicode')).topicosvg(ndigits=5)
+    source = ET.tostring(original, encoding='unicode')
+    if stroke_scale is None:
+        pico = SVG.fromstring(source).topicosvg(ndigits=5)
+    else:
+        if not math.isfinite(stroke_scale) or stroke_scale < 1:
+            raise ValueError('線画の作業倍率が不正')
+        # Skiaの線輪郭の近似誤差は座標単位に依存する。作業座標だけ拡大する。
+        scaled = ET.Element(f'{{{NS}}}svg', {'viewBox': ' '.join(str(float(v)*stroke_scale) for v in re.split(r'[ ,]+', original.get('viewBox').strip()))})
+        for shape in SVG.fromstring(source).shapes():
+            if shape.transform or shape.stroke_dasharray != 'none':
+                raise ValueError('高精度線画ではtransform・破線を未サポート')
+            path = shape.apply_transform(Affine2D(stroke_scale,0,0,stroke_scale,0,0))
+            path.stroke_width *= stroke_scale
+            path.stroke_dashoffset *= stroke_scale
+            element = ET.fromstring(str(path))
+            element.tag = f'{{{NS}}}path'
+            scaled.append(element)
+        pico = PreciseStrokeSVG.fromstring(ET.tostring(scaled,encoding='unicode'))
+        pico.stroke_tolerance = stroke_scale * 0.001
+        pico.topicosvg(ndigits=5, inplace=True)
     converted = ET.fromstring(pico.tostring())
     output = ET.Element(f'{{{NS}}}svg', {'viewBox': original.get('viewBox')})
     for element in converted:
@@ -75,7 +102,10 @@ def convert(text):
             raise ValueError('パス化できない属性・グループが残っている')
         if element.get('fill') == 'none':
             continue
-        path = ET.SubElement(output, f'{{{NS}}}path', {'fill':'currentColor','d':element.get('d','')})
+        data = element.get('d','')
+        if stroke_scale is not None:
+            data = SVGPath(d=data).apply_transform(Affine2D(1/stroke_scale,0,0,1/stroke_scale,0,0)).round_floats(3).d
+        path = ET.SubElement(output, f'{{{NS}}}path', {'fill':'currentColor','d':data})
         if element.get('fill-rule'):
             path.set('fill-rule', element.get('fill-rule'))
     result = ET.tostring(output, encoding='unicode') + '\n'

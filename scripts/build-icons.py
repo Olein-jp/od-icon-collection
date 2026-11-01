@@ -37,6 +37,8 @@ for source in SOURCES:
     icons=[]
     if source['id']=='feathericon':
         files=[(p,p.stem) for p in sorted((origin/'src/svg').glob('*.svg'))]
+    elif source['id']=='lucide':
+        files=[(p,p.stem) for p in sorted((origin/'icons').glob('*.svg'))]
     elif source['id']=='fontawesome-free':
         files=[(p,style+'-'+p.stem) for style in ['solid','regular'] for p in sorted((origin/'svgs'/style).glob('*.svg'))]
     else:
@@ -49,7 +51,7 @@ for source in SOURCES:
             if not re.fullmatch(r'[a-z0-9](?:[a-z0-9_-]*[a-z0-9])?',name) or name in seen: raise ValueError('命名規則違反・重複')
             seen.add(name)
             text=verified_text(path)
-            svg=convert(text)
+            svg=convert(text, stroke_scale=source.get('stroke_scale'))
             (output/(name+'.svg')).write_text(svg)
             icons.append({'name':name,'label':name.replace('-',' ').replace('_',' ').title(),'file':name+'.svg','source_sha256':hashlib.sha256(text.encode()).hexdigest(),'sha256':hashlib.sha256(svg.encode()).hexdigest()})
             pairs.append({'name':source['slug']+'/'+name,'source':str(path.relative_to(ROOT)),'output':'assets/icons/'+source['id']+'/svg/'+name+'.svg'})

@@ -38,7 +38,7 @@ final class PluginTest extends TestCase {
 
 	public function test_all_collections_registered_and_idempotent(): void {
 		$registry = $GLOBALS['od_icon_collection_plugin']->registry;
-		$this->assertCount( 3, $registry->results );
+		$this->assertCount( 4, $registry->results );
 		foreach ( $registry->results as $result ) {
 			$this->assertGreaterThan( 0, $result['success'] );
 			$this->assertSame( $result['target'], $result['success'] );
@@ -118,9 +118,21 @@ final class PluginTest extends TestCase {
 		$this->assertSame(array('od-feathericon'),$settings->sanitize(array('od-feathericon','../bad','od-feathericon',array())));
 		$this->assertSame(array(),$settings->sanitize('invalid'));
 		wp_set_current_user(0);
-		$this->assertCount(3,$settings->sanitize(array()));
+		$this->assertCount(4,$settings->sanitize(array()));
 		$settings->register();
 		$this->assertFalse(get_registered_settings()['od_icon_collection_enabled']['show_in_rest']);
+	}
+
+	public function test_existing_collection_selection_is_preserved(): void {
+		$admin=get_users(array('role'=>'administrator','number'=>1));
+		wp_set_current_user($admin[0]->ID);
+		$previous=array('od-feathericon','od-material-symbols');
+		update_option('od_icon_collection_enabled',$previous);
+		$registry=new Collection_Registry();
+		$this->assertSame($previous,$registry->enabled());
+		$this->assertNotContains('od-lucide',$registry->enabled());
+		delete_option('od_icon_collection_enabled');
+		$this->assertContains('od-lucide',$registry->enabled());
 	}
 
 	public function test_rest_collections_search_and_permissions(): void {
@@ -134,15 +146,16 @@ final class PluginTest extends TestCase {
 			$response=rest_do_request($request);
 			$this->assertSame(200,$response->get_status());
 			$this->assertSame($GLOBALS['od_icon_collection_plugin']->registry->results[$slug]['success'],count($response->get_data()));
-			$request->set_param('search','home');
+			$search='od-lucide'===$slug ? 'house' : 'home';
+			$request->set_param('search',$search);
 			$response=rest_do_request($request);
 			$this->assertNotEmpty($response->get_data());
-			foreach($response->get_data() as $icon) { $this->assertSame($slug,$icon['collection']); $this->assertStringContainsString('home',strtolower($icon['name'].' '.$icon['label'])); }
+			foreach($response->get_data() as $icon) { $this->assertSame($slug,$icon['collection']); $this->assertStringContainsString($search,strtolower($icon['name'].' '.$icon['label'])); }
 		}
 	}
 
 	public function test_saved_block_attributes_and_rendering(): void {
-		foreach(array('od-feathericon/home','od-fontawesome-free/solid-heart','od-fontawesome-free/regular-heart','od-material-symbols/outlined-search') as $name) {
+		foreach(array('od-feathericon/home','od-fontawesome-free/solid-heart','od-fontawesome-free/regular-heart','od-material-symbols/outlined-search','od-lucide/house','od-lucide/alarm-clock') as $name) {
 			$block='<!-- wp:icon '.wp_json_encode(array('icon'=>$name,'rotation'=>90,'flipHorizontal'=>true,'style'=>array('color'=>array('text'=>'#cc0000'),'dimensions'=>array('width'=>'48px'))), JSON_UNESCAPED_SLASHES).' /-->';
 			$id=wp_insert_post(array('post_title'=>'OD自動テスト','post_status'=>'draft','post_content'=>wp_slash($block)));
 			try {

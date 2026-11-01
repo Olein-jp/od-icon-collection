@@ -22,6 +22,8 @@ try {
   started=true;
   run(['start','--update']);
   wp('wp plugin install /var/www/html/wp-content/package-fixtures/od-icon-collection.zip --force --activate');
+  // 検証環境の設定を初期値へ戻して、新コレクションも検証する。
+  wp("wp eval 'delete_option( \"od_icon_collection_enabled\" );'");
   wp('wp eval-file wp-content/od-verification/package-verification.php initial 7.1.3');
   wp('wp plugin install /var/www/html/wp-content/package-fixtures/od-icon-collection.zip --force --activate');
   wp('wp eval-file wp-content/od-verification/package-verification.php overwritten');

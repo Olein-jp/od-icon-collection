@@ -1,5 +1,6 @@
 """公式Gitリポジトリから固定コミットの対象ファイルだけを取得する。"""
 import json
+import argparse
 import subprocess
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
@@ -7,7 +8,13 @@ ROOT = Path(__file__).resolve().parent.parent
 def git(directory, *args, **kwargs):
     return subprocess.run(['git', '-C', str(directory), *args], check=True, **kwargs)
 
-for source in json.loads((ROOT/'scripts/icon-sources.json').read_text()):
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--only',help='取得するコレクションID')
+args=parser.parse_args()
+sources=json.loads((ROOT/'scripts/icon-sources.json').read_text())
+if args.only and args.only not in {s['id'] for s in sources}: parser.error('不明なコレクションID')
+for source in sources:
+    if args.only and source['id']!=args.only: continue
     directory=ROOT/'.cache/sources'/source['id']
     directory.mkdir(parents=True, exist_ok=True)
     if not (directory/'.git').exists():

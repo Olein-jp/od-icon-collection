@@ -1,0 +1,12 @@
+{
+    "wordpress": "7.1.4",
+    "php": "7.4.33",
+    "collection": "od-lucide",
+    "search": "",
+    "status": 200,
+    "count": 2015,
+    "rest_ms": 921.46,
+    "baseline_mib": 62.5,
+    "peak_mib": 90.5,
+    "response_bytes": 8443323
+}

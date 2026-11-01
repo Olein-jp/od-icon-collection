@@ -38,6 +38,18 @@ OD Icon Collection本体はGPL-2.0-or-laterです。同梱アイコンのライ�
 - 改変: 曲線等をパス座標へ正規化、塗りをcurrentColorに統一。viewBoxのある4,089件は元の値を保持。viewBoxのない64件は数値のwidth/heightから`0 0 width height`を補完。
 - この固定コミットの対象ルートには別のNOTICEファイルはありません。将来存在する場合は取得工程がコピーします。
 
+## Lucide
+
+- 提供元: Lucide Icons and Contributors。一部はCole BemisのFeatherプロジェクト由来。
+- 公式リポジトリ: https://github.com/lucide-icons/lucide
+- 取得バージョン: 1.66.0（2026-11-01取得）
+- 取得コミット: a630cec77eac6568b989e87e4947a8bfe45caacd
+- ライセンス: ISC。上流が列挙するFeather由来の一部アイコンにはMITも適用。対象一覧と両ライセンスの全文を`licenses/lucide/LICENSE`にそのまま同梱。
+- 著作権表示: Copyright (c) 2026 Lucide Icons and Contributors / Copyright (c) 2013-present Cole Bemis
+- 同梱対象: 公式リポジトリの`icons/*.svg`。Lucide Labや別ライブラリは含めない。
+- 改変: stroke、線端、線の接合、円・矩形・折線等をpicosvg/Skiaで塗りのパスへ変換。viewBoxを保持し、pathの塗りをcurrentColorへ正規化。元のSVGやライセンスを変更せず保持する。
+- 登録識別子: `od-lucide/house`など、元のファイル名を保持。表示名は元の英単語を使用し、翻訳しない。
+
 ## 変換と来歴
 
 元ファイルは開発キャッシュに保持し、配布には変換済みSVGを含めます。各manifest.jsonには取得バージョン・コミット・元SVGのSHA-256・変換後のSHA-256を記録します。変換にはpicosvg / Skiaを使用し、線幅・線端・角丸を保持してstrokeを塗りのパスにします。未知の要素、外部参照、イベント属性、style、DTD・XML実体は拒否します。

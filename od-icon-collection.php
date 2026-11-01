@@ -3,7 +3,7 @@
  * Plugin Name: OD Icon Collection
  * Plugin URI: https://github.com/Olein-jp/od-icon-collection
  * Description: An icon collection for WordPress.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Requires at least: 7.1
  * Requires PHP: 7.4
  * Author: Koji Kuno

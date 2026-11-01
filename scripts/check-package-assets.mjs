@@ -28,7 +28,7 @@ export function checkAssets(root) {
     if(readdirSync(directory).length!==manifest.icons.length) throw Error('余分なSVGがあります');
   }
   if(count!==checked.size || count!==comparison.length) throw Error('比較レポートとアイコン数が不一致');
-  for(const path of ['licenses/feathericon/LICENSE','licenses/fontawesome-free/LICENSE.txt','licenses/material-symbols/LICENSE','licenses/CC-BY-4.0.txt','THIRD-PARTY-NOTICES.md']) {
+  for(const path of ['licenses/feathericon/LICENSE','licenses/fontawesome-free/LICENSE.txt','licenses/material-symbols/LICENSE','licenses/lucide/LICENSE','licenses/CC-BY-4.0.txt','THIRD-PARTY-NOTICES.md']) {
     if(!existsSync(join(root,path))) throw Error('ライセンス欠損: '+path);
   }
   console.log(`配布前検証: ${count}件のSVGと全件比較結果・ライセンスが一致`);

@@ -25,5 +25,14 @@
     "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
     "description": "Material Symbols SVG icons.",
     "repository_url": "https://github.com/google/material-design-icons"
+  },
+  {
+    "id": "lucide",
+    "slug": "od-lucide",
+    "label": "Lucide",
+    "license": "ISC / MIT",
+    "license_url": "https://lucide.dev/license",
+    "description": "Lucide SVG icons.",
+    "repository_url": "https://github.com/lucide-icons/lucide"
   }
 ]

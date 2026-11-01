@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: OD Icon Collection 1.0.0\n"
+"Project-Id-Version: OD Icon Collection 1.1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/Olein-jp/od-icon-collection/issues\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
